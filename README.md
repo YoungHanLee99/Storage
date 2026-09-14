@@ -7,6 +7,7 @@
 | 경로 | 설명 |
 |---|---|
 | `docs/tax/업무용승용차-비용처리-가이드.md` | 개인사업자 차량 구매 후 감가상각·비용처리 전체 가이드 |
+| `docs/tax/차량-비용처리-필요서류.md` | 취득·운행·신고 단계별 증빙서류 체크리스트 |
 | `tools/vehicle_depreciation.py` | 업무용승용차 연도별 필요경비 시뮬레이터 |
 | `templates/운행기록부_양식.csv` | 업무용승용차 운행기록부 양식 |
 | `.claude/commands/morning-briefing.md` | 오전 브리핑 슬래시 커맨드 |
