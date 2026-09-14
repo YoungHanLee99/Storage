@@ -21,7 +21,8 @@ python3 tools/vehicle_depreciation.py --cost 60000000 --start 2026-03
 python3 tools/vehicle_depreciation.py --cost 85000000 --start 2026-03 \
     --other-cost 6000000 --logbook --business-ratio 0.9
 
-# 업무전용자동차보험 미가입(2026 귀속분 — 전액 부인)
+# 1대를 초과하는 차량이 업무전용자동차보험 미가입인 경우(2026 귀속 — 전액 부인)
+# ※ 사업자별 1대는 모든 유형에서 가입 의무가 제외되므로 1대 보유 시에는 기본값(ok) 사용
 python3 tools/vehicle_depreciation.py --cost 60000000 --start 2026-03 --insurance none-0
 ```
 
@@ -31,6 +32,6 @@ python3 tools/vehicle_depreciation.py --cost 60000000 --start 2026-03 --insuranc
 | `--start` | 사업 사용 개시 연월 (`YYYY-MM`) |
 | `--other-cost` | 연간 기타 관련비용(유류비·보험료·자동차세·수선비·통행료·할부이자) |
 | `--logbook` / `--business-ratio` | 운행기록부 작성 시 실제 업무사용비율 적용 |
-| `--insurance` | `ok` / `none-50`(2024~2025) / `none-0`(2026~) |
+| `--insurance` | `ok`(가입 또는 사업자별 1대 제외) / `none-50` / `none-0` — 1대 초과 차량 미가입 시에만 사용 |
 
 > ⚠️ 참고용 계산입니다. 최종 신고 수치는 세무대리인 확인을 거치십시오.

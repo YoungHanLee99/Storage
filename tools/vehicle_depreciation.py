@@ -34,6 +34,7 @@ class YearRow:
     other_cost: int      # 감가상각비 외 관련비용
     related_cost: int    # 관련비용 합계
     threshold: int       # 1,500만원 기준금액(월할)
+    ratio_raw: float     # 업무사용비율(보험 인정률 반영 전)
     ratio: float         # 업무사용비율(보험 인정률 반영 후)
     dep_business: int    # 감가상각비 중 업무사용분
     limit: int           # 800만원 한도(월할)
@@ -63,12 +64,13 @@ def simulate(cost, start_year, start_month, annual_other_cost,
         # 업무사용비율 결정
         threshold = round(LOGBOOK_THRESHOLD * months / 12)
         if has_logbook:
-            ratio = business_ratio
+            ratio_raw = business_ratio
         elif related <= threshold:
-            ratio = 1.0
+            ratio_raw = 1.0
         else:
-            ratio = threshold / related
-        ratio *= recognition_rate  # 업무전용자동차보험 미가입 시 50% 또는 0%
+            ratio_raw = threshold / related
+        # 업무전용자동차보험 미가입 시 50% 또는 0%
+        ratio = ratio_raw * recognition_rate
 
         # 감가상각비 한도 적용
         dep_business = round(book_dep * ratio)
@@ -89,7 +91,8 @@ def simulate(cost, start_year, start_month, annual_other_cost,
         rows.append(YearRow(
             year=year, months=months, dep_months=dep_months,
             book_dep=book_dep, other_cost=other_cost, related_cost=related,
-            threshold=threshold, ratio=ratio, dep_business=dep_business,
+            threshold=threshold, ratio_raw=ratio_raw, ratio=ratio,
+            dep_business=dep_business,
             limit=limit, dep_deducted=dep_deducted, other_deducted=other_deducted,
             disallowed=disallowed, carryover=carryover,
         ))
@@ -149,16 +152,16 @@ def render(rows, args):
     print("=" * 104)
 
     warn = []
-    if any(r.ratio < 1.0 and not args.logbook for r in rows):
-        worst = min(r.ratio for r in rows)
+    if not args.logbook and any(r.ratio_raw < 1.0 for r in rows):
+        worst = min(r.ratio_raw for r in rows)
         warn.append(f"관련비용이 1,500만원을 초과하여 업무사용비율이 최저 {worst:.1%}까지 축소됩니다. "
                     f"→ 운행기록부를 작성하면 실제 업무사용비율(통상 90% 이상)을 적용받을 수 있습니다.")
-    if len(rows) > 5:
+    if len(rows) > 5 and args.recognition_rate > 0:
         warn.append(f"연 800만원 한도 때문에 5년이 아니라 {len(rows)}년에 걸쳐 비용이 회수됩니다. "
                     f"현금흐름·누진세율 측면을 감안해 취득 시기를 검토하십시오.")
     if args.recognition_rate < 1.0:
-        warn.append("업무전용자동차보험 미가입 상태입니다. 2026 귀속분부터 미가입 차량(1대 초과분 또는 "
-                    "성실신고확인대상자·전문직의 전 차량)은 관련비용이 전액 부인됩니다.")
+        warn.append("업무전용자동차보험 미가입 상태로 계산했습니다. 사업자별 1대는 모든 유형에서 가입 의무가 "
+                    "제외되므로, 보유 차량이 1대뿐이라면 --insurance ok 로 계산하십시오.")
     if warn:
         print("\n  [검토 포인트]")
         for w in warn:
@@ -180,8 +183,10 @@ def main():
     p.add_argument("--business-ratio", type=float, default=1.0,
                    help="운행기록부상 업무사용비율 (예: 0.85). --logbook과 함께 사용")
     p.add_argument("--insurance", choices=["ok", "none-50", "none-0"], default="ok",
-                   help="업무전용자동차보험: ok=가입(또는 1대 예외), none-50=미가입 50%% 인정(2024~2025), "
-                        "none-0=미가입 전액 부인(2026~)")
+                   help="업무전용자동차보험. ok=가입했거나 사업자별 1대 제외에 해당(기본값). "
+                        "none-50/none-0 은 1대를 초과하는 차량이 미가입인 경우에만 해당: "
+                        "none-50=50%% 인정(일반 복식부기 2024~2025, 성실신고·전문직 2021~2023), "
+                        "none-0=전액 부인(일반 복식부기 2026~, 성실신고·전문직 2024~)")
     p.add_argument("--max-years", type=int, default=15, help="시뮬레이션 최대 과세기간 수")
     args = p.parse_args()
 
