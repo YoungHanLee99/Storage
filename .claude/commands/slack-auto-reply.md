@@ -123,18 +123,19 @@ description: 슬랙 수신 점검 — 나와 관련된 메시지·질의를 찾�
 
 ## 6. 결과 보고
 
-- 초안을 **1건 이상** 만든 경우에만 본인 Slack DM(`channel_id="U0ASV74BP88"`)으로
-  `slack_send_message`를 사용해 **한 건의 통합 요약**을 전송합니다.
+초안 목록을 아래 형식으로 요약합니다.
 
-  ```
-  ✍️ 답신 초안 {N}건 저장 ({HH:MM} KST)
-  • #채널 또는 상대명 — 요청 요지 한 줄 (기한: ...)
-  ...
-  Slack "Drafts & Sent"에서 검토 후 전송해 주세요.
-  ```
+```
+✍️ 답신 초안 {N}건 저장 ({HH:MM} KST)
+• #채널 또는 상대명 — 요청 요지 한 줄 (기한: ...)
+Slack "Drafts & Sent"에서 검토 후 전송해 주세요.
+```
 
-- 초안이 0건이면 **아무것도 전송하지 않고** 조용히 종료합니다. (무소식이 정상 동작입니다.)
-- 건너뛴 건(기존 초안 대기, 맥락 부족, 권한 없음)은 세션 로그에만 남깁니다.
+- **`Hourly inbox check` Routine 안에서 실행될 때**: 그 Routine의 이메일·슬랙 요약 보고
+  끝에 위 블록을 덧붙입니다. **별도의 Slack DM은 보내지 않습니다.**
+- **`/slack-auto-reply`로 수동 실행할 때**: 세션에 보고합니다.
+- 초안이 0건이면 초안 항목을 생략합니다. (무소식이 정상 동작입니다.)
+- 건너뛴 건(기존 초안 대기, 맥락 부족, 권한 없음)은 한 줄로만 언급합니다.
 
 ---
 
@@ -142,25 +143,34 @@ description: 슬랙 수신 점검 — 나와 관련된 메시지·질의를 찾�
 
 | 바꾸고 싶은 것 | 수정 위치 |
 |---|---|
-| 실행 주기·시간대 | Routine `Slack 답신 초안` 의 cron (아래 참고) |
+| 실행 주기·시간대 | claude.ai Routines UI에서 `Hourly inbox check` 의 cron |
 | 탐지 범위 | 2-A ~ 2-D 중 해당 항목 삭제/추가 |
 | 멘션 탐지 제외 | 2-B 항목 삭제 |
 | 키워드 | 2-D 키워드 목록 |
 | 초안 기준 강도 | 3항 포함/제외 기준 |
 | 요약 DM 끄기 | 6항 첫 번째 불릿 삭제 |
 
-### 등록된 Routine (UTC cron · KST = UTC+9)
+### 무인 실행은 어디에 걸려 있나
 
-- `17 0-11 * * 1-5` → 평일 KST 09:17 ~ 20:17 매시간
-- `17 23 * * 0-4` → 평일 KST 08:17
+`Hourly inbox check` Routine (`58 * * * *`, 매시 58분) **하나**에 걸립니다.
+이 Routine이 A파트(이메일·슬랙 요약 보고)와 B파트(이 룬북의 초안 저장)를 함께 수행합니다.
+붙여넣을 프롬프트 전문은 `.claude/routines/hourly-inbox-check.md` 에 있습니다.
 
-### ⚠️ Routine에 Slack 커넥터가 반드시 붙어 있어야 합니다
+### ⚠️ Routine 설정은 claude.ai UI에서만 가능합니다
 
-Routine이 띄우는 세션은 해당 Routine에 **저장된 커넥터만** 사용할 수 있습니다.
+Routine이 띄우는 세션은 그 Routine에 **저장된 커넥터만** 사용할 수 있습니다.
 `mcp_connections`가 비어 있으면 `mcp__Slack__*` 도구가 없어 이 룬북이 전혀 동작하지 않습니다.
 
-- 확인: Routine 목록에서 `mcp_connections`에 `Slack`(`https://mcp.slack.com/mcp`)이 있는지 봅니다.
-- 부여: **claude.ai → Routines UI**에서 해당 Routine을 열어 Slack 커넥터를 붙입니다.
-  Claude Code 세션 안에서 만든 Routine에는 커넥터를 붙일 수 없습니다(조직 정책).
-- 참고: 같은 계정의 `Hourly inbox check` Routine은 Gmail·Google Calendar·Google Drive·Slack
-  커넥터를 보유한 정상 동작 예시입니다.
+에이전트(Claude Code 세션)로는 이 문제를 해결할 수 없습니다.
+
+- 새로 만드는 Routine에는 커넥터를 붙일 수 없습니다 — `connectors` 파라미터가 조직 정책상 차단됩니다.
+- claude.ai UI에서 만든 Routine은 에이전트가 수정할 수 없습니다 —
+  `update_trigger`: *agents can only update routines they created*.
+
+따라서 **claude.ai → Routines UI에서 사용자가 직접** 프롬프트를 붙여넣어야 합니다.
+`Hourly inbox check`는 Gmail·Google Calendar·Google Drive·**Slack** 커넥터를 이미 보유한
+유일한 정상 동작 Routine이므로 여기에 붙이는 것이 가장 확실합니다.
+
+**동작 여부 판별법**: Routine 실행이 20~30초 만에 끝나면 Slack 커넥터가 없는 것입니다.
+(실측 — 커넥터 없이 만든 Routine은 05:17:22에 시작해 05:17:44에 종료, 22초.)
+정상 동작 시에는 검색·스레드 읽기·초안 작성으로 1분 이상 걸립니다.
