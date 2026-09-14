@@ -153,3 +153,14 @@ description: 슬랙 수신 점검 — 나와 관련된 메시지·질의를 찾�
 
 - `17 0-11 * * 1-5` → 평일 KST 09:17 ~ 20:17 매시간
 - `17 23 * * 0-4` → 평일 KST 08:17
+
+### ⚠️ Routine에 Slack 커넥터가 반드시 붙어 있어야 합니다
+
+Routine이 띄우는 세션은 해당 Routine에 **저장된 커넥터만** 사용할 수 있습니다.
+`mcp_connections`가 비어 있으면 `mcp__Slack__*` 도구가 없어 이 룬북이 전혀 동작하지 않습니다.
+
+- 확인: Routine 목록에서 `mcp_connections`에 `Slack`(`https://mcp.slack.com/mcp`)이 있는지 봅니다.
+- 부여: **claude.ai → Routines UI**에서 해당 Routine을 열어 Slack 커넥터를 붙입니다.
+  Claude Code 세션 안에서 만든 Routine에는 커넥터를 붙일 수 없습니다(조직 정책).
+- 참고: 같은 계정의 `Hourly inbox check` Routine은 Gmail·Google Calendar·Google Drive·Slack
+  커넥터를 보유한 정상 동작 예시입니다.
