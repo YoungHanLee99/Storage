@@ -1,0 +1,65 @@
+You Can't Copyright a Wave. So How Do You Protect an Immersive Art Museum?
+
+Two weeks ago, ARTE MUSEUM NEW YORK turned one. More than 12 million people have now walked through an ARTE MUSEUM somewhere in the world. This summer we announced our first museum in Japan, opening in Aichi at the end of November, with tickets going on sale later this month. Somewhere between those two milestones, a partner asked me the question I get asked at almost every new opening: "So what exactly do you own here?"
+
+It is a fair question. In one sense, it is also the wrong one. Our best-known works are arguably WAVE and Waterfall. Nobody owns a wave or a waterfall. Our museums are full of flowers, forests, whales and thunderstorms, and none of those belong to anyone either. Meanwhile the field is getting crowded. Industry analysts counted more than twenty major immersive venues opening in 2026 alone. When a market gets crowded, the usual things follow: imitation, disputes, and hard questions about who owns what.
+
+So here is how I think about protecting something that is, at its core, an experience.
+
+1. What copyright protects is the how, not the what
+
+US, Korean and Japanese copyright law agree on one thing: ideas are free, expression is protected. A wave crashing against a glass wall is an idea. The specific sequence, the timing of the swell, the way the foam is rendered, the sound that arrives with it, and the decision to put all of that on a screen the size of a building: that is expression.
+
+That distinction shapes everything we do. Two consequences follow.
+
+First, register. In Korea, registration is not required for protection, but it creates a legal presumption of who created a work and when, and it is a precondition for claiming statutory damages. In the US, you generally cannot even file an infringement suit over a domestic work without a registration, and statutory damages and attorney's fees depend on timing. Registration is cheap. Proving in court, three years later, that a file on a server was created on a particular date is not.
+
+Second, register in layers. A media art exhibition is not one work. It is a composite of video, music, sound design, software, spatial choreography, and the editorial choice of how those pieces are sequenced. Each layer is separately protectable, and the compilation is protectable again on top. A copyist rarely copies everything. Layered registrations mean the part they did copy is covered.
+
+2. The room itself: brands and trade dress
+
+Copyright does not cover the look and feel of a venue. The look of an entrance, the rhythm of the rooms, the scent, the way visitors move through the space: that is where trademark and unfair competition law take over.
+
+The rule I try to hold us to is simple: file before you announce. In first-to-file jurisdictions, a press release without a trademark application is an invitation. By the time a city is announced, the marks should already be on file there.
+
+The more interesting layer is the space itself. Three courts, three countries, one idea:
+
+* United States. In Two Pesos v. Taco Cabana (1992), the Supreme Court held that a restaurant's overall décor can be inherently distinctive trade dress.
+* Japan. In 2016, the Tokyo District Court granted Komeda Coffee, a chain from Nagoya of all places, an injunction against a rival that copied the exterior and interior of its shops, under the Unfair Competition Prevention Act.
+* Korea. In 2020, the Supreme Court held that the overall image of a golf course, built with substantial investment, was protected under the catch-all clause of the Unfair Competition Prevention Act, even though copyright covered only the designer's drawings.
+
+The common thread: courts protect the accumulated result of investment once it has become recognizable. Which means recognition has to be documented. Press coverage, visitor numbers, marketing spend, social reach: to a marketing team these are performance metrics. To a lawyer they are evidence. A marketing archive is one of the most important legal files a company like ours has.
+
+3. Contracts are where IP is actually made
+
+Media art is made by teams: motion designers, composers, sound engineers, software developers, external studios, occasionally guest artists. Every one of them is a potential co-owner unless the paperwork says otherwise.
+
+Under Korean law, works created by employees in the course of business and published under the company's name belong to the company. Works by contractors do not, unless assigned, and you want that assignment in writing. Moral rights cannot be transferred at all in Korea or Japan, so a covenant not to exercise them is standard. If a contributor sits in the United States, the work-for-hire doctrine covers fewer categories than people assume, so an explicit assignment is needed there too.
+
+One of the best-known immersive companies in the United States spent years in litigation with a contributing artist over a single sculpture in its flagship exhibition. Whatever the merits, the lesson has nothing to do with that artist or that company. In immersive art, "we'll sort out the paperwork later" is the most expensive sentence in the business.
+
+4. What visitors cannot see: trade secrets
+
+The content is visible to millions. The pipeline that produces it is not: how projections are calibrated across surfaces, how dozens of systems stay synchronized, how a work is re-timed for a new space. That know-how is a trade secret, but only where it is treated like one. The law in Korea, as elsewhere, protects secrets that are actually managed as secrets: access controls, markings, vendor NDAs, offboarding procedures. Those steps matter, because a trade secret without management is just information.
+
+5. The AI variable
+
+Generative AI is entering production pipelines across the creative industries, and the legal consequences are concrete.
+
+Authorship. The U.S. Copyright Office does not register purely AI-generated material and requires disclosure of AI-generated portions. Earlier this year the U.S. Supreme Court declined to hear Thaler v. Perlmutter, leaving the human-authorship requirement intact. Korea's Ministry of Culture takes the same position: AI output on its own is not a copyrightable work; only the human creative contribution is. So every work now needs an answer to the question "which parts did a human decide?" That answer belongs in writing, per work, as a provenance record.
+
+Labeling. Korea's AI Basic Act, in force since January and amended in July, requires businesses that provide generative AI to label its outputs. That reaches any AI feature offered to visitors, and it is already shaping how AI-assisted marketing content is handled.
+
+Training. Korea's February guidance on fair use in AI training, and the 2025 U.S. decisions, converge on two questions: was the data lawfully obtained, and does the output compete with the original? That cuts both ways for a content company. Inbound, anything we train on must be lawfully sourced. Outbound, our works are somebody else's training data, and that is the next frontier of enforcement.
+
+Vendors. Every production contract now needs a clause on AI use: disclosure, warranties, and the same provenance obligation we hold ourselves to.
+
+My one-line summary for the creative teams: AI-assisted is registrable, AI-generated is not, and the difference is documented human judgment.
+
+IP is infrastructure, not a shield
+
+Every landlord, licensee and investor eventually asks the same question: what do you own? The quality of the answer decides how fast you can move. A clean chain of title, marks on file, a registry of works, a provenance record: none of this is defensive. It is the reason a museum can open on another continent in months rather than years.
+
+We still cannot copyright a wave. We do not need to. What we can protect is everything that turns a wave into a place people fly across the world to stand in.
+
+These are personal working notes, not legal advice.
