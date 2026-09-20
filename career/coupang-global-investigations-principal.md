@@ -1,7 +1,7 @@
 # 쿠팡 Global Investigations — Principal(내부조사 선임 담당자) 포지션 분석
 
 > 분석일: 2026-09-20 (아마존 경력 반영 개정) · 공고 최종수정: 2026-09-19 · 근무지: 서울
-> 관련 문서: [경력기술서·영문 CV](./coupang-investigations-resume-draft.md) · [면접 대비](./coupang-investigations-interview-prep.md) · [워크시트](./coupang-investigations-experience-worksheet.md)
+> 관련 문서: [지원 실행 패키지](./coupang-investigations-application-package.md) · [경력기술서·영문 CV](./coupang-investigations-resume-draft.md) · [면접 대비](./coupang-investigations-interview-prep.md) · [워크시트](./coupang-investigations-experience-worksheet.md)
 
 ---
 
@@ -286,6 +286,8 @@ Global Investigations Team은 이 중앙 조사 조직에 해당하며, 공고�
 | 4 | 수습 12주 면제 또는 단축 | 공고상 "업무상 필요한 경우 미적용·단축 가능" 명시 |
 | 5 | 사이닝 보너스 | 현직 미지급 보상 상쇄 |
 
+**보상 수준 참고** — 제3자 채용 집계 사이트는 이 포지션을 **₩105M ~ ₩150M**(Legal 부문, Principal, 서울)으로 표기합니다. 다만 **쿠팡 공식 공고에는 연봉이 명시되어 있지 않고**, 총보상 기준인지 기본급 기준인지와 RSU 포함 여부가 불명확합니다. 협상 기준이 아니라 눈높이 참고용으로만 쓰시고, 리크루터 통화에서 현금·주식을 분리해 확인하십시오.
+
 ---
 
 ## 7. 실행 체크리스트
@@ -315,6 +317,13 @@ Global Investigations Team은 이 중앙 조사 조직에 해당하며, 공고�
 - [ ] 한국법 논점 5개 중 3개 이상 즉답 가능 수준 — **아마존 출신 경쟁 후보와의 결정적 차별점**
 - [ ] 케이스 스터디 9단계 순서 암기 (1번 "즉시 조치" 누락 주의)
 - [ ] Case Management System 도구명 확인 및 기재
+
+**Phase 3.5 — 제출** → [지원 실행 패키지](./coupang-investigations-application-package.md)
+- [ ] 커버레터 최종화 (국·영문) — 레벨 이슈 단락 포함
+- [ ] 포털 지원서 제출 ([coupang.jobs](https://www.coupang.jobs/kr/)) — 공고 조기 마감 가능하므로 우선 접수
+- [ ] 리크루터 InMail 발송 (Talent Acquisition, Legal/Compliance 담당)
+- [ ] 쿠팡 재직 중 아마존 출신 지인 확인 → 내부 추천 시도, "지원 경로"란에 기재
+- [ ] 지원 일시·공고 URL 기록 → 2주 무응답 시 팔로업
 
 **Phase 4 — 오퍼 단계**
 - [ ] §6.3 협상 우선순위 1~5 순차 제기 (아마존 레벨 카드는 여기서 처음)
