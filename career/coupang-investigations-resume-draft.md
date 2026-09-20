@@ -1,268 +1,264 @@
-# 경력기술서 · 영문 CV 초안 — 쿠팡 Global Investigations (Principal)
+# 경력기술서 · 영문 CV — 쿠팡 Global Investigations (Principal)
 
-> `[대괄호]`는 채워 넣을 자리입니다. 숫자는 **반드시** 실제 값으로 교체하십시오 — 이 공고에서 숫자 없는 문장은 "관리했다"로 읽힙니다.
-> 관련 문서: [분석](./coupang-global-investigations-principal.md) · [워크시트](./coupang-investigations-experience-worksheet.md) · [면접 대비](./coupang-investigations-interview-prep.md)
+> **2026-09-21 전면 개정 (3판).** 실제 이력서(`Resume_Young-Han_LEE_202609`) 반영.
+> 이전 판들의 "Amazon 법인 재직 [N]년" 전제는 사실과 달라 전부 폐기했습니다. 실제는 **덴톤스리 파트너 재직 중 2021.7~8 (2개월) 아마존 관련 내부조사 프로젝트 외부 자문**입니다.
+> 관련 문서: [분석](./coupang-global-investigations-principal.md) · [지원 실행 패키지](./coupang-investigations-application-package.md) · [면접 대비](./coupang-investigations-interview-prep.md)
 
 ---
 
-## 0. 이 프로필의 구조적 강점 — 먼저 이해하고 쓰실 것
+## 0. 솔직한 적합도 재판정
 
-이 공고에 대한 지원자 중 아래 **다섯 가지를 동시에** 가진 사람은 거의 없습니다. 경력기술서 전체가 이 다섯 개를 반복적으로 증명하는 구조여야 합니다.
+### 0.1 확인된 이력 (실제 이력서 기준)
 
-| # | 강점 | 대응 요건 | 왜 희소한가 |
-|:-:|---|---|---|
-| 1 | **EBC(Fraud·Compliance) + ER(HR) 양대 트랙 동시 보유** | 업무내용 ⑤ (두 유형 병기) | 국내 조사 인력은 대개 한쪽만 합니다. JD가 명시적으로 둘 다 요구하는데, 대부분의 후보가 반쪽입니다. |
-| 2 | **APAC 다국법인 cross-border 조사** | 업무내용 ⑦ (해외 자회사 조사 지원) | 쿠팡의 이 기능은 "Global" Investigations입니다. 국내 대기업 감사실 출신은 이 경험이 없습니다. |
-| 3 | **미국 상장사 조사 거버넌스** (Amazon → NASDAQ) | 조직 전제 (쿠팡 = NYSE, SOX §301 / FCPA) | 제보 채널을 감사위원회 보고 체계로 운영해 본 경험. |
-| 4 | **변호사 자격 + GC 경력** | 우대④, 필수⑥⑦ | 조사 결론을 형사 리스크·공시 의무·징계 적법성으로 번역할 수 있음. |
-| 5 | **Amazon 운영 언어** | 컬처핏 (§0.1) | ↓ |
-
-### 0.1 결정적 발견 — 쿠팡 리더십 원칙은 아마존 LP의 재구성입니다
-
-| 쿠팡 LP | 대응 Amazon LP |
+| | |
 |---|---|
-| **Dive Deep** | **Dive Deep** *(동일)* |
-| **Hire and Develop the Best** | **Hire and Develop the Best** *(동일)* |
-| **Disagree and Commit** | Have Backbone; Disagree and Commit |
-| Wow the Customer | Customer Obsession |
-| Ownership / Company-wide Perspective | Ownership |
-| Simplify | Invent and Simplify |
-| Demand Excellence | Insist on the Highest Standards |
-| Aim High and Find a Way | Think Big |
-| Move with Urgency | Bias for Action |
-| Hate Waste | Frugality |
-| Learn Voraciously | Learn and Be Curious |
-| Deliver Results with Grit | Deliver Results |
-| **Think Systematically** | *(아마존 대응 없음)* |
-| **Influence without Authority** | *(아마존 대응 없음)* |
+| **총 경력** | **17년** (한국 변호사 2009.1 등록) |
+| **자격** | 대한민국 변호사(2009.1) · **Washington D.C. Bar(2014.9)** · **AICPA 시험 합격**(Maine, 2012.6) · KOFIA 증권투자권유자문인력·파생상품투자권유자문인력·집합투자자산운용사 |
+| **현직** | ㈜디스트릭트코리아 **CSO 겸 CLO** (2023.8~) |
+| **직전** | 법무법인 덴톤스리 **파트너** (2020.8~2023.7) · Dentons US LLP (D.C.) Associate (2019.8~2020.8) · 법무법인 태평양 Senior Associate (2014.4~2019.7) |
+| **공직·군** | 육군 법무관 **수사·기소** (2009.4~2014.3) · 한미연합사 법무참모 (2013.4~2014.3) · 방위사업청 PM (2012.4~2013.3) · 평창올림픽 법률자문 / OBS 중재인 |
+| **학력** | 서울대 법학사(2005) · 사법연수원(2009) · 서울대 LL.M.(증권·상법) · Northwestern LL.M.(우등) · Georgetown LL.M.(에너지법) |
+| **언어** | 한국어 원어민 · 영어 full professional · **일본어 business level** |
 
-**실무적 함의 3가지**
+### 0.2 요건 판정 — 필수
 
-1. 기존 **Amazon LP STAR 스토리가 명칭만 바꿔 그대로 이전**됩니다. 면접 준비 부담이 다른 후보의 1/3입니다.
-2. 경력기술서·커버레터에 **`Dive Deep`, `Disagree and Commit`, `Ownership` 같은 LP 어휘를 의도적으로 삽입**하십시오. 아마존 출신 면접관(쿠팡 리더십에 다수)에게 즉각적인 코드 인식이 일어납니다.
-3. **`Influence without Authority`가 쿠팡 고유 LP라는 점이 결정적입니다.** 조사관은 조사 대상에 대한 인사권이 없는 상태에서 협조를 끌어내야 하는 직무이며, 이것이 정확히 그 LP입니다. **이 단어를 자기소개·커버레터에 직접 쓰십시오.**
+| # | 요건 | 판정 | 근거 |
+|---|---|:---:|---|
+| 1 | 경영·형사사법·법학·컴플라이언스 학사 이상 | ● | 서울대 법학사 |
+| 2 | 관련 분야 **12년 이상** | ● | **17년.** 여유 있게 충족 |
+| 3 | 내부제보·Fraud·Compliance·**HR 조사**를 독립 수행·**종결**한 경험 | **○** | **최대 갭.** 현 이력서에 내부조사 실적 없음 → §4 |
+| 4 | 조사 계획→인터뷰→증거수집→보고서 전 과정 주도 | **◐** | ITC 조사의 discovery 총괄·deposition·sanctions motion이 구조적으로 가장 근접 |
+| 5 | 시스템·거래데이터·로그·**HR 데이터** 기반 결론 도출 | **○** | **갭.** ITC discovery가 유일한 근사치 |
+| 6 | 사실·증거 분석 → 결론 및 권고 | ● | 17년 전 경력 |
+| 7 | 커뮤니케이션·이해관계자 관리 | ● | C-level, 군 지휘부, 정부, 다국적 고객 |
+| 8 | 윤리의식·기밀유지·세심함 | ● | 변호사 직업윤리 |
+| 9 | 비즈니스 수준 이상 영어 | ● | D.C. Bar, 미국 로펌 근무 |
 
-### 0.2 반대로, 반드시 방어해야 할 두 가지
+### 0.3 요건 판정 — 우대
 
-| 리스크 | 방어 논리 |
-|---|---|
-| **C-level(CSO/GC) → IC Principal 하향** | "조사 실무로 돌아가는 의도적 선택"임을 먼저 말하지 않으면 오버퀄로 분류됩니다. §0.3 스크립트 사용. |
-| **아마존 → 디스트릭트 → 다시 대기업 조사직 = 방황으로 읽힐 위험** | "조사(Amazon) → 법률·거버넌스 총괄(GC) → 두 역량을 결합해야만 가능한 난도의 조사(쿠팡)"라는 **상향 서사**로 프레이밍. |
+| 항목 | 판정 | 근거 |
+|---|:---:|---|
+| Corporate Investigations / E&C / 부정감사 **조직 근무** | ○ | 없음 |
+| Whistleblower · Fraud Investigation · Regulatory Reporting | ◐ | 규제·형사 대응은 풍부하나 whistleblower·fraud investigation 실적 없음 |
+| Case Management System · 데이터 분석 도구 | ○ | 없음 |
+| **변호사 또는 공인회계사(CPA)** | **★★** | **한국 변호사 + D.C. Bar + AICPA 시험 합격.** 공고 우대사항 중 가장 강하게, 이중으로 충족 |
 
-### 0.3 레벨 이슈 3문장 스크립트 (전화면접 첫 5분에 선제 사용)
+### 0.4 결론 — 반드시 먼저 읽으실 것
 
-> "아마존에서 조사 실무를 하다가, 조사 결론이 실제로 법적 판단과 징계·공시로 이어지는 지점을 직접 책임져 보고 싶어 GC 역할로 옮겼습니다. 지금은 그 두 가지를 모두 해 본 상태이고, 제가 가장 잘하고 가장 하고 싶은 일은 **사안 자체를 끝까지 파고드는 조사**입니다. 조직 관리 범위를 넓히는 것보다, 이 두 경험이 다 있어야 풀 수 있는 난도의 사건을 맡는 자리를 찾고 있습니다."
+> **이 지원은 stretch application입니다.**
+>
+> 프로필 자체는 대단히 강합니다 — 17년, 한·미 이중 자격, CPA 시험 합격, 3개 국어, 미국 상장 준비 총괄. 다만 **이 공고의 핵심 필수요건(③④⑤)이 "내부조사를 직접 수행하고 종결한 경험"인데, 현 이력서에는 그 실적이 없습니다.** 규제·형사 사건 대응은 **회사를 방어한 경험**이지 **회사 내부를 조사한 경험**이 아니며, 스크리너는 이 둘을 구분합니다.
+>
+> **따라서 서류 통과 여부는 사실상 하나에 달려 있습니다: §4의 질문에 답이 있는가.**
 
-> 영문: *"I moved from investigations at Amazon into a GC role because I wanted to own what happens after a finding — the legal call, the discipline, the disclosure. Having now done both, the work I do best and want to keep doing is the investigation itself. I'm looking for a seat where the hardest matters land, not a wider management span."*
+**세 가지 시나리오**
 
----
-
-## 1. 국문 경력기술서 초안
-
-### 1.1 요약 (Professional Summary)
-
-> **글로벌 이커머스 기업의 윤리·준법 조사와 인하우스 법무 총괄을 모두 수행한 조사 전문가.**
-> Amazon [일본/싱가포르] 법인에서 **Ethics & Business Conduct(윤리·부정 조사)** 및 **Employee Relations Centralized Investigations(HR 조사)** 를 담당하며 [N]년간 횡령·이해상충·정책위반 사건과 직장 내 괴롭힘·차별·보복 사건을 단일 담당자로 착수부터 종결까지 수행. [N]개국 법인이 관련된 cross-border 조사를 [N]건 주도. 이후 ㈜디스트릭트[그룹]에서 CSO 겸 General Counsel로 준법·조사 기능을 총괄하며, 조사 결론을 형사 리스크 판단·징계 적법성·대외 공시로 연결하는 역할 수행. 대한민국 변호사. [총 경력 N년].
-
-**작성 팁**: 첫 줄에 *"조사"* 와 *"법무 총괄"* 두 단어가 모두 들어가야 합니다. 스크리너는 3초 안에 "Fraud 되나 / HR 되나 / 변호사 맞나"를 봅니다.
-
-### 1.2 핵심 역량 (JD 요건과 1:1 배열 — 순서 변경 금지)
-
-```
-· 제보 인테이크·트리아지 및 조사 착수·범위 결정       (업무내용 ①)
-· 조사 계획 수립 → 인터뷰 → 증거 수집 → 보고서 전 과정 단독 수행  (업무내용 ②·필수③④)
-· 거래 데이터·시스템 로그·HR 데이터 기반 이상징후 식별 및 가설 검증  (업무내용 ③·필수⑤)
-· Fraud·Compliance 조사 (횡령·배임·이해상충·부패)          (업무내용 ⑤)
-· HR 조사 (괴롭힘·차별·보복·성희롱)                      (업무내용 ⑤)
-· Cross-border 조사 및 해외 법인 조사 지원                (업무내용 ⑦)
-· 윤리 제보 채널 운영 및 조사 기준·매뉴얼 수립            (직무소개 ①④)
-· 미국 상장사 조사 거버넌스 (SOX §301 / FCPA / 감사위원회 보고)  (조직 전제)
-· 규제기관 대응 및 Regulatory Reporting                  (우대②)
-· Case Management System 운용 및 데이터 분석 도구 활용     (우대③)
-· 대한민국 변호사 / 영어 업무 능통                        (우대④·필수⑨)
-```
-
-### 1.3 경력 상세
-
-#### ㈜디스트릭트[그룹] — CSO 겸 General Counsel ([YYYY.MM] ~ 현재)
-
-*이 섹션의 목적: "조사 결론 이후"를 책임져 본 사람임을 증명하는 것. 관리 업무가 아니라 조사·판단 행위로 서술합니다.*
-
-- 그룹 준법·윤리 기능 총괄 및 제보 채널 [설계/운영] — 연간 [N]건 접수, [N]건 조사 착수
-- [유형] 사안 [N]건을 직접 조사 — 관계자 인터뷰 [N]회, [문서/거래/로그] [N]건 검토 후 [결론] 도출, [징계/형사고소/제도개선]으로 종결
-- 조사 결과의 형사 리스크 판단(형법 §355·§356 해당 여부, 고소 실익) 및 징계 절차 적법성 검토 — 노동위원회 구제신청 [N]건 대응, [결과]
-- [규제기관] 조사·감독 대응 [N]건 — [공정위/고용노동부/개인정보위/수사기관]
-- 그룹 행동강령·조사 매뉴얼 [제정/개정], 해외 법인 [N]개국 대상 적용
-
-> **필수요건 ③ 직결**: 이 섹션에 *"단독으로 조사하여 종결한 사건"* 이 최소 1건, 동사로 서술되어야 합니다.
-
-#### Amazon [Japan / Asia Pacific] — [직함] ([YYYY.MM] ~ [YYYY.MM])
-
-*이 섹션이 이력서의 심장입니다. 아마존 내부 용어를 그대로 쓰지 말고 §2의 번역표대로 변환하십시오.*
-
-**Ethics & Business Conduct — Fraud·Compliance 조사**
-
-- Ethics Line(익명 제보 포함) 접수 건 **인테이크 및 트리아지** 수행 — 연간 [N]건 검토, 리스크 등급 부여 및 조사 착수 여부 결정
-- 횡령·공급업체 리베이트·이해상충·경비 부정·정책위반 사건 [N]건을 **단독 조사**하여 종결
-- 조사 계획 수립, 증거보전(litigation hold) 발동, [ERP/구매/정산/경비] 시스템 데이터 및 접근 로그 분석을 통한 **가설 수립·검증**
-- 피조사자·제보자·참고인 인터뷰 총 [N]회 — 진술 충돌 시 문서·데이터 대조를 통한 신빙성 평가
-- 조사 보고서 작성 및 **시정조치 권고**(징계 / 프로세스 통제 / 벤더 관계 종료) — [N]건이 실제 조치로 이행
-- 근본원인 분석 및 재발방지 통제 설계 — [해당 시: Correction of Errors 프로세스 운영]
-
-**Employee Relations Centralized Investigations — HR 조사**
-
-- 직장 내 괴롭힘·차별·보복(retaliation)·성희롱 신고 사건 [N]건 **단독 조사 및 종결(adjudication)**
-- 신고자·피신고자·목격자 인터뷰, HR 데이터(근태·평가·인사이동·조직도) 대조를 통한 사실관계 확정
-- 조사 결과에 따른 **징계 수위 권고** 및 피해자 보호조치 설계, 보복 여부 사후 모니터링
-- 임원급 피조사자 사건 [N]건 처리 — 이해충돌 차단 구조 설계 및 상위 에스컬레이션 경로 운영
-- Case Management System([도구명]) 기반 케이스 라이프사이클 관리 및 [분기/연간] 추세 분석 보고
-
-**Cross-border / 리전 업무**
-
-- [일본·싱가포르·한국·호주 등 N개국] 법인 관련 사건 조사 — 현지 노동법·개인정보 규제 충돌 검토 및 현지 자문 확보
-- 국가 간 데이터 반출 제약 하에서의 증거 수집 구조 설계
-- 본사([시애틀]) 및 리전 이해관계자 대상 영문 조사 보고 — [N]건
-
-#### [이전 경력 — 법률사무소/기타] ([YYYY] ~ [YYYY])
-
-- [간결하게 2~3줄. 변호사 실무 경력이 12년 산정에 포함된다면 반드시 표기]
-
-### 1.4 대표 조사 사례 (Selected Matters) — 3~5건
-
-> 익명화하되 **유형·규모·본인 역할·종결 여부는 반드시 특정**합니다. 각 3~4줄.
-
-**사례 1 — [유형: 예) 구매 담당자 리베이트 수수]**
-[제보 경로]로 접수. [N]개월간 단독 조사. [구매/정산] 데이터 [N]건 분석 중 [특정 벤더 집중 / 승인 한도 직하 분할 발주] 패턴 식별 → [N]명 인터뷰로 확인. 관련 금액 약 [N]. 결과: [징계 / 형사고소 / 벤더 계약 해지] 및 [구매 승인 통제] 신설.
-
-**사례 2 — [유형: 임원급 직장 내 괴롭힘]**
-[신고 경로]로 접수. 피조사자가 [직급]이어 [이해충돌 차단 구조]를 별도 설계. 신고자 보호조치 선제 시행 후 [N]명 인터뷰, [메신저/이메일/근태] 기록 대조. 결과: [인정/불인정] 및 [조치]. 사후 [N]개월 보복 모니터링 수행, 추가 신고 없음.
-
-**사례 3 — [유형: cross-border]**
-[A국] 법인 제보가 [B국] 임직원과 연관. 양국 개인정보 규제상 [반출 제약] 존재 → [현지 리뷰 후 결론만 이전]하는 구조로 설계하여 조사 완결.
-
-**사례 4 — [유형: 결론이 뒤집혔거나 프로세스 결함이 드러난 사건]**
-> ※ 이 사례를 넣는 후보는 드뭅니다. Principal급에서는 자기인식의 증거로 강하게 작동합니다.
-
-### 1.5 자격 및 학력
-
-- 대한민국 변호사 (사법연수원 [N]기 / 변호사시험 [N]회), [등록번호 생략 가능]
-- [학력]
-- 영어 [업무상 활용 수준 — 아마존 재직 중 영문 조사보고서 작성 및 영어 인터뷰 수행]
-- [일본어 등 추가 언어 — 일본 법인 재직 시 강한 차별점이므로 반드시 표기]
-
----
-
-## 2. Amazon → 쿠팡 JD 용어 번역표
-
-**아마존 내부 용어를 그대로 쓰면 쿠팡 스크리너가 매칭하지 못합니다.** 반드시 오른쪽으로 변환하십시오.
-
-| Amazon 용어 | 경력기술서에 쓸 표현 | 대응 요건 |
+| | 조건 | 권고 |
 |---|---|---|
-| Ethics Line / Speak Up | **중앙 제보 채널 / 윤리 제보 채널** | 직무소개 ①, 업무내용 ① |
-| Ethics & Business Conduct (EBC) | **Ethics & Compliance 조사** | 우대① |
-| Employee Relations Centralized Investigations (ERCI) | **HR 관련 조사** (괴롭힘·차별·보복·성희롱) | 업무내용 ⑤ |
-| Intake / case triage | **제보 검토 및 조사 착수 여부·범위 결정** | 업무내용 ① |
-| Case adjudication | **사실관계 분석 및 조사 결과 도출** | 업무내용 ②④ |
-| Remedial action / corrective action | **적절한 조치 및 개선 방안 권고** | 직무소개, 업무내용 ④ |
-| Closing memo / investigation report | **최종 조사 보고서** | 업무내용 ② |
-| Subject / complainant / witness interview | **피조사자·제보자·참고인 인터뷰** | 업무내용 ② |
-| Data pull from internal systems | **회사 시스템·거래 데이터·시스템 로그·HR 데이터 검토** | 업무내용 ③, 필수⑤ |
-| Root cause / Correction of Errors (COE) | **근본원인 분석 및 재발방지 방안 도출** | 직무소개 |
-| Retaliation review | **보복 행위 조사** | 업무내용 ⑤ |
-| Code of Business Conduct and Ethics | **행동강령** | 직무소개 ④ |
-| Conflict of Interest disclosure review | **이해상충 검토** | 업무내용 ⑤ |
-| Bar Raiser | *(기재 불필요 — 면접에서 구두로만)* | — |
-| L[4/5/6/7] | *(기재하지 말 것 — 레벨 비교 유도는 협상에서 불리)* | — |
-
-> **주의 ①**: `EBC`, `ERCI`, `COE`, `LP` 같은 **약어를 그대로 쓰지 마십시오.** 아마존 출신 면접관은 알아듣지만, 1차 스크리너(리쿠르터)는 모릅니다. 풀어쓴 뒤 괄호로 원어를 병기하는 방식이 안전합니다.
-> **주의 ②**: 아마존 레벨(L5/L6 등)은 **이력서에 쓰지 마십시오.** 쿠팡 Principal과의 레벨 매핑 논쟁을 서류 단계에서 시작할 이유가 없습니다. 오퍼 협상 단계에서 꺼낼 카드입니다.
+| **A** | d'strict CLO로서 실제 수행한 **내부조사 건이 있다** (횡령·이해상충·괴롭힘 신고 등) | 그 건들을 전면에 세우면 **경쟁력 있는 지원**이 됩니다. §2 그대로 사용 |
+| **B** | 내부조사 실적이 **없다** | 필수요건 ③⑤ 미충족. 지원은 가능하나 서류 통과 확률이 낮습니다. §5의 대안 검토 권고 |
+| **C** | 애매하다 (조사를 지시·감독했으나 직접 수행은 아님) | 감독한 건이라도 **본인이 결정한 사항**(착수 판단, 범위, 결론 채택)을 특정해 서술. B보다는 낫지만 A에는 못 미침 |
 
 ---
 
-## 3. English CV Draft
+## 1. 전략 — 기존 이력서를 그대로 내면 안 되는 이유
 
-### 3.1 Professional Summary
+현재 이력서는 **M&A·자본시장 변호사** 이력서입니다. PROFILE 첫 문장이 "cross-border M&A and investments, capital markets and financial regulation"이고, REPRESENTATIVE MATTERS도 M&A가 맨 앞입니다.
 
-> Investigations professional combining **corporate ethics & workplace investigations at a US-listed global e-commerce company** with **in-house General Counsel accountability for what happens after a finding**. At Amazon [Japan / Asia Pacific], independently ran [N] years of **Ethics & Business Conduct** matters (embezzlement, vendor kickbacks, conflicts of interest, policy violations) and **Employee Relations Centralized Investigations** matters (harassment, discrimination, retaliation), owning cases end to end from intake through adjudication and remediation across [N] APAC jurisdictions. Subsequently CSO & General Counsel at d'strict [Group], where findings had to translate into criminal-risk assessments, defensible discipline, and disclosure. **Qualified attorney (Republic of Korea).** [N] years total.
+이 공고에 그대로 내면 스크리너는 **"조사 경력이 없는 거래 변호사"** 로 읽습니다. 같은 사실관계를 **재배열·재강조**해야 합니다.
 
-### 3.2 Core Competencies
+**3대 재배열 원칙**
 
-```
-Intake & Triage  ·  Scope Determination  ·  Investigation Planning  ·  Evidence Preservation
-Subject / Complainant / Witness Interviewing  ·  Transactional & Log Data Analysis
-Fraud, Embezzlement, Conflicts of Interest, Anti-Corruption
-Harassment, Discrimination, Retaliation, Sexual Harassment
-Cross-Border & Multi-Jurisdiction Investigations  ·  Speak-Up Channel Operation
-Case Management Systems  ·  Regulatory Response & Reporting
-US-Listed Issuer Governance (SOX §301 / FCPA / Audit Committee Reporting)
-Korean & English (business fluent)[, Japanese]
-```
-
-### 3.3 Professional Experience
-
-**d'strict [Group]** — *Chief Strategy Officer & General Counsel* · [City] · [MM/YYYY – Present]
-
-- Own the group's ethics, compliance and investigations function across [N] entities and [N] jurisdictions; [designed / operate] the speak-up channel handling [N] reports annually
-- Personally investigate [type] matters — conducted [N] interviews and reviewed [N] documents/transactions, closing [N] matters with [discipline / criminal referral / control redesign]
-- Translate investigative findings into criminal-exposure assessments and defensible disciplinary process; defended [N] Labor Relations Commission claims, [outcome]
-- Lead regulatory engagements with [KFTC / MOEL / PIPC / prosecutors] — [N] matters
-- Authored the group code of conduct and investigation protocol applied across [N] overseas entities
-
-**Amazon** — *[Title]*, [Ethics & Business Conduct / Employee Relations Centralized Investigations] · [Tokyo / Singapore] · [MM/YYYY – MM/YYYY]
-
-*Ethics & Business Conduct*
-- Triaged [N] ethics line reports annually, including anonymous reports; determined risk grading, investigative scope and whether to open
-- Independently investigated and closed [N] matters involving embezzlement, vendor kickbacks, expense fraud, conflicts of interest and policy violations
-- Built and tested investigative hypotheses against [ERP / procurement / settlement / expense] data and system access logs; issued litigation holds and preserved evidence
-- Conducted [N] subject, complainant and witness interviews; resolved conflicting testimony through documentary and transactional corroboration
-- Authored investigation reports and remediation recommendations; [N] adopted as disciplinary or control actions
-- [Ran Correction of Errors / root-cause reviews producing [N] new preventive controls]
-
-*Employee Relations Centralized Investigations*
-- Independently investigated and adjudicated [N] workplace matters — harassment, discrimination, retaliation and sexual harassment
-- Corroborated allegations against HR data (attendance, performance, transfer history, reporting lines) alongside interview evidence
-- Recommended disciplinary outcomes, designed complainant protection measures, and ran post-closure retaliation monitoring
-- Handled [N] matters where the subject was an executive, designing conflict-of-interest firewalls and escalation paths
-- Managed case lifecycle in [CMS name] and reported [quarterly / annual] trend analysis to [stakeholders]
-
-*Cross-Border*
-- Investigated matters spanning [N] APAC entities; reconciled conflicting local employment and data-protection requirements with local counsel
-- Designed evidence-collection structures that held up under cross-border data transfer restrictions
-- Delivered [N] investigation reports in English to [Seattle HQ] and regional stakeholders
-
-**[Prior firm / role]** — *[Title]* · [YYYY – YYYY]
-- [2–3 lines]
-
-### 3.4 Selected Matters
-
-> Anonymized; scope, scale and personal role specified. 3–5 entries, 2–3 lines each.
-
-**Vendor kickback scheme, [country], [N] months** — Opened from an anonymous ethics line report. Identified [vendor concentration / sub-threshold order splitting] across [N] procurement records, then confirmed through [N] interviews. Exposure approx. [amount]. Closed with [termination / criminal referral] and a new [approval control].
-
-**Executive-level harassment, [country]** — Subject was [level]; designed a conflict-of-interest firewall and reported outside the normal chain. Interim protective measures for the complainant preceded [N] interviews and review of [messaging / attendance] records. Outcome: [substantiated / not substantiated] and [action]; [N]-month retaliation monitoring closed with no further reports.
-
-**Cross-border matter, [A] → [B]** — Report in [A] implicated employees in [B]. Data transfer restrictions barred moving raw evidence, so the review was conducted in-jurisdiction with only conclusions transferred, allowing the matter to close.
-
-**[A matter where my initial conclusion was wrong / a process gap surfaced]** — [what changed and what I changed as a result]
-
-### 3.5 Credentials
-
-- Attorney-at-Law, Republic of Korea ([Bar / KJRTI class])
-- [Degree], [University]
-- Languages: Korean (native), English (business fluent)[, Japanese ([level])]
+1. **PROFILE 첫 문장을 조사·규제·거버넌스로 교체.** M&A·자본시장은 뒤로.
+2. **REPRESENTATIVE MATTERS의 순서를 뒤집기.** 현재 `M&A → 거버넌스 → 자본시장 → 규제·분쟁·조사 → 디지털자산 → 세무`. 이 공고용은 **`조사·규제·형사 → 거버넌스·컴플라이언스 → 금융범죄(AML/CFT) → 나머지 압축`**.
+3. **군 법무관 "수사·기소" 경력을 숨기지 말 것.** 현재는 맨 아래 한 줄이지만, **이 공고에서는 이력서 전체에서 "investigate"라는 동사가 등장하는 유일한 자리**입니다. 공고 자격요건 1번이 *"형사사법(Criminal Justice)"* 전공을 명시하고 있다는 점도 함께 보십시오.
 
 ---
 
-## 4. 제출 전 최종 점검
+## 2. 국문 경력기술서 — 쿠팡 지원용
 
-- [ ] 모든 문장의 주어가 "내가"인가 — `led`, `investigated`, `interviewed`, `authored`, `closed` / "총괄", "담당" 금지
-- [ ] `[대괄호]` 플레이스홀더가 **전부** 실제 값으로 교체되었는가
-- [ ] **단독으로 조사하여 종결한 사건**이 국·영문 모두에 최소 2건 명시되었는가 (필수요건 ③)
-- [ ] **HR 조사**와 **Fraud 조사**가 각각 독립된 소제목으로 보이는가 (업무내용 ⑤)
-- [ ] **데이터로 가설을 검증한 서술**이 있는가 (필수⑤ — 원래 최대 갭이었으나 아마존 경력으로 해소되는 지점)
-- [ ] 아마존 약어(EBC/ERCI/COE)가 풀어쓰였는가
-- [ ] 아마존 **레벨(L5/L6)이 기재되지 않았는가**
-- [ ] 변호사 자격이 1페이지 내에 보이는가 (우대④)
-- [ ] 쿠팡 LP 어휘(`Dive Deep`, `Influence without Authority`, `Disagree and Commit`)가 자연스럽게 1~2회 등장하는가
-- [ ] 12년 경력 산정이 공고 요건(Investigation/Compliance/Audit/Risk) 기준으로 명확히 합산되는가
-- [ ] 일본어 등 추가 언어가 누락되지 않았는가
+> `[대괄호]`만 채우시면 됩니다.
+
+### 2.1 요약
+
+> **17년차 한·미 이중자격 변호사. 수사·기소, 증거개시(discovery), 기업 형사·규제 대응, 그리고 그룹 법무·거버넌스 총괄을 모두 수행.**
+> 육군 법무관으로 **군 형사사건을 직접 수사하고 기소**했고, 미국 ITC 조사에서 **증거개시 절차를 총괄**하며 증인신문(deposition)을 직접 수행하고 상대방 제재(sanctions) 신청을 주도해 궐석판결을 받아냈습니다. 법무법인 태평양·덴톤스(서울·워싱턴 D.C.)에서 기업과 임원의 형사·규제 사건을 대리했고, 현재 ㈜디스트릭트코리아 CSO 겸 CLO로서 5개국(한국·미국·일본·대만·중국) 그룹 법무와 규제·형사 절차를 총괄하며 미국 상장 준비(공시 대응력·내부통제)를 직접 이끌고 있습니다.
+> 대한민국 변호사(2009) · Washington D.C. Bar(2014) · **AICPA 시험 합격(2012)** · 한국어·영어·일본어.
+
+### 2.2 핵심 역량 (JD 요건 순서대로 배열)
+
+```
+· 형사 수사 및 기소 — 군 법무관으로 사건 수사·기소 직접 수행         (필수③④, 자격요건1 형사사법)
+· 증거개시(Discovery) 총괄 — 미 ITC 조사에서 문서개시·증인신문·제재신청  (업무내용②, 필수④)
+· 증인신문(Deposition) 수행 및 방어                               (업무내용②)
+· 사실관계·증거 분석 → 결론 및 권고 도출                           (업무내용④, 필수⑥)
+· 기업·임원 형사 및 규제 절차 대응                                 (우대②)
+· 규제기관 대응 — 국토부·산업부·과세당국·수사기관                    (우대②)
+· AML/CFT 및 금융범죄 규제 자문 (USD 스테이블코인 발행·상환)          (Coupang Financial Crime 도메인)
+· 미국 상장 준비 — 공시 대응력, 특수관계자 정리, 내부회계관리제도       (SOX 인접)
+· 그룹 거버넌스 — 이사회·주주총회 운영, 해외 법인·JV 설립 및 준법 관리  (업무내용⑦)
+· 다국적 이해관계자 관리 — 5개국 그룹, 군 지휘부, 정부부처, 글로벌 투자자 (필수⑦)
+· 한국 변호사 · D.C. Bar · AICPA 시험 합격                        (우대④, 이중 충족)
+· 한국어 / 영어(full professional) / 일본어(business)              (필수⑨)
+```
+
+> **주의**: 위 목록에 **내부조사(Fraud·HR) 항목이 없습니다.** §4에서 확인되면 최상단 두 줄로 추가하십시오. 그것이 이 이력서의 가장 큰 변수입니다.
+
+### 2.3 경력 상세
+
+#### ㈜디스트릭트코리아 — CSO 겸 CLO (2023.8 ~ 현재)
+
+- ARTE MUSEUM을 운영하는 d'strict 그룹의 **전사 법무 기능 총괄** — 한국·미국·일본·대만·중국 5개국 사업장 및 프로젝트
+- **규제·형사 절차 총괄** — 국내 규제기관 조사 및 형사 절차, 국제 중재·소송, 분쟁 해결 및 합의
+- **미국 상장 준비 주도** (Big4 자문사 공동) — 지주구조 설계, 기업 정비(corporate housekeeping), **특수관계자 거래 정리**, **공시 대응력(disclosure readiness)** 확보
+- 해외 자회사·합작법인 설립 및 거버넌스 — 법인 설립, 자본구조, 이사·임원 선임, 이사회·주주총회 운영, **지속적 준법 관리**
+- **AML/CFT 자문** — USD 스테이블코인 발행·상환 거래의 외환 및 자금세탁방지 규제 검토, 토큰 이코노미·바이백 구조 자문
+- 그룹 조직 재편 설계·실행 — 계열사 감자 및 주주 엑시트
+- 투자 유치 및 IR — 실사 대응, 텀시트 협상, 본계약 체결 (국내외 전략적·재무적 투자자)
+- **[내부조사 관련 실적이 있다면 반드시 이 위치에 추가 — §4]**
+
+#### 법무법인(유) 덴톤스리 — 파트너 (2020.8 ~ 2023.7)
+
+- 한국 및 다국적 기업 대상 **국제 분쟁**, cross-border M&A·PE, 기술·플랫폼 규제 자문
+- **미국 ITC 조사 대리** (영업비밀 침해 및 특허침해) — **증거개시 절차 및 신청(motions practice) 총괄**, 상대방에 대한 **제재(sanctions) 인용** 및 이에 따른 **궐석판결을 위원회 단계에서 유지**
+- **미국 상장 글로벌 이커머스 기업 내부조사 프로젝트 외부 자문** (2021.7~8) — [본인이 실제로 수행한 행위]
+- d'strict에 대한 IMM인베스트먼트 PE 투자 건 회사측 대리 (텀시트~클로징, 2023.1)
+
+> **분량 원칙**: 2021년 내부조사 자문은 **한 줄**로 둡니다. 2개월 프로젝트를 늘려 쓰면 "이게 조사 경력의 전부"임이 드러납니다. 짧게 두면 "국제 기준을 봤다"는 신호만 남습니다.
+> **의뢰인 비밀유지**: 해당 선임이 공개 사안이 아니라면 **의뢰인명 대신 "미국 상장 글로벌 이커머스 기업"** 으로 일반화하십시오 (변호사법상 비밀유지의무). 조사 직군에서는 **밝히지 않는 태도 자체가 플러스**입니다.
+
+#### Dentons US LLP (Washington, D.C.) — Associate (2019.8 ~ 2020.8)
+
+- 미국 ITC 영업비밀 침해 조사 참여 — **증거개시 지원, 증인신문(deposition) 수행 및 방어**, 신청서면 작성
+- **상대방에 대한 궐석 및 제재 신청서(motion for default and sanctions) 기초**
+
+#### 법무법인(유) 태평양 — Senior Associate (2014.4 ~ 2019.7)
+
+- 금융규제, 에너지, cross-border 거래, 방위사업, 기술법 자문 (입법·행정 및 환경 그룹)
+- **삼성전자, 현대모비스, 아시아나항공, 한국항공우주산업 등 주요 기업의 중요 사건 대리**
+- 아시아나항공 국토교통부 60일 운항정지 처분 취소 행정소송 대리
+- 메릴린치 전 한국대표 형사 사건 변호 (수사 및 공판)
+- 기업 및 임원의 형사·규제 절차 대리 (조세, 인허가)
+- 자율주행차·전기차·드론·로보틱스 규제 자문, 산업통상자원부 비교법제 연구
+
+#### 대한민국 육군 법무관 (JAG) — 법무참모 / 군검찰관 (2009.4 ~ 2014.3)
+
+- **군 형사사건 수사 및 기소 직접 수행**
+- 제12보병사단장에 대한 교전규칙 자문
+- 대한민국 정부 관련 손해배상 민사소송 대리
+- *(파견)* **한미연합사령부 법무참모** (2013.4~2014.3) — 연합사·유엔사·주한미군 사령관에 대한 교전규칙 및 SOFA 자문, 미군 법무관과의 정례 협의 주재
+- *(파견)* **방위사업청 PM** (2012.4~2013.3) — 불량탄약 관련 **USD 5,000만 규모 지체상금 국제중재** 수행 (서면부터 합의까지)
+
+#### 기타
+
+- 평창2018 동계올림픽조직위원회 법률자문 (2017.8~2018.6)
+- OBS(올림픽방송서비스) **중재인** (2018.1~3) — 국가올림픽위원회 간 국제계약 분쟁 재정
+
+### 2.4 학력·자격
+
+- **자격**: 대한민국 변호사(2009.1) / **Washington D.C. Bar(2014.9)** / **AICPA 통일 CPA 시험 합격**(Maine주, 2012.6) / KOFIA 증권투자권유자문인력(2009.9)·파생상품투자권유자문인력(2009.11)·집합투자자산운용사(2009.12)
+- **학력**: Georgetown University Law Center LL.M.(에너지법, 2019.5) / Northwestern Pritzker School of Law LL.M.(2014.5, **우등졸업**) / 서울대학교 법학전문대학원 LL.M.(증권법·상법) / 사법연수원 수료(2009.1) / 서울대학교 법과대학 법학사(2005.2)
+- **언어**: 한국어(원어민), 영어(full professional), 일본어(business level)
+
+---
+
+## 3. 영문 CV — 이 공고용 조정안
+
+기존 CV를 새로 쓰지 말고 **PROFILE과 REPRESENTATIVE MATTERS 두 곳만 교체**하십시오. EXPERIENCE 본문은 그대로 두되 불릿 순서만 조정합니다.
+
+### 3.1 새 PROFILE (교체)
+
+> Korean and Washington, D.C. attorney with **seventeen years of practice spanning criminal investigation and prosecution, evidence discovery in contested proceedings, corporate criminal and regulatory defence, and group-wide legal and governance oversight.** Began practice as a Judge Advocate in the Republic of Korea Army, where he **investigated and prosecuted** criminal matters, and later **led discovery and motions practice in a U.S. International Trade Commission investigation**, taking and defending depositions and securing sanctions against the opposing party that produced a default judgment sustained before the Commission. Represented companies and their executives — including the former Head of Korea of Merrill Lynch — in Korean criminal and regulatory proceedings. Currently Chief Strategy Officer and Chief Legal Officer of d'strict, developer and operator of ARTE MUSEUM, overseeing regulatory and criminal proceedings, board governance and overseas-entity compliance across Korea, the United States, Japan, Taiwan and China, and directing U.S. listing preparation with a Big Four advisor including related-party clean-up, disclosure readiness and internal accounting control. Earlier practice at Dentons (Washington, D.C. and Seoul) and Bae, Kim & Lee also covered cross-border M&A and private equity, international arbitration, and financial, AML/CFT and technology regulation. **Admitted in Korea (2009) and Washington, D.C. (2014); passed the Uniform CPA Examination (AICPA, Maine, 2012).** LL.M.s from Georgetown, Northwestern (honors) and Seoul National University. Full professional fluency in Korean and English; business-level Japanese.
+
+### 3.2 REPRESENTATIVE MATTERS — 새 순서
+
+```
+1. INVESTIGATIONS, CRIMINAL & REGULATORY      ← 맨 위로
+2. GOVERNANCE, COMPLIANCE & LISTING READINESS  ← 신설 (기존 거버넌스 + 상장 항목 재구성)
+3. FINANCIAL CRIME & DIGITAL ASSETS            ← AML/CFT를 별도 표제로 승격
+4. M&A, PRIVATE EQUITY & CAPITAL MARKETS       ← 압축하여 아래로
+```
+
+**1. INVESTIGATIONS, CRIMINAL & REGULATORY**
+- As a Judge Advocate in the ROK Army, **investigated and prosecuted** criminal matters, and advised a division commander on rules of engagement.
+- **Led discovery and motions practice** in a U.S. International Trade Commission investigation involving trade-secret misappropriation and patent infringement; took and defended depositions, drafted the motion for default and sanctions, secured sanctions against the opposing party and sustained the resulting default judgment before the Commission.
+- Served as **outside counsel on an internal investigation for a US-listed global e-commerce client** (2021) — [role].
+- Represented the former Head of Korea of Merrill Lynch in criminal prosecution and at trial.
+- Represented companies and their executives in Korean criminal and regulatory proceedings, including tax and industry-licensing matters.
+- Represented Asiana Airlines in administrative litigation challenging a 60-day suspension imposed by the Ministry of Land, Infrastructure and Transport.
+- Represented the Korean Government in an international arbitration over a USD 50 million liquidated-damages claim concerning defective destroyer ammunition.
+- *[내부조사 실적이 있다면 이 목록 맨 위에 추가 — §4]*
+
+**2. GOVERNANCE, COMPLIANCE & LISTING READINESS**
+- Direct U.S. listing preparation with a Big Four advisor — holding-company structure, corporate housekeeping, **related-party clean-up, disclosure readiness** and internal accounting control requirements.
+- Establish and govern overseas subsidiaries and joint ventures across the U.S. and Japan — incorporation, capital structure, board and officer appointments, board and shareholder proceedings, and **ongoing compliance**.
+- Advise on multi-jurisdiction group structuring covering share capital, shareholder rights and board governance.
+- Identified a mismatch between the charter definition of Qualified IPO and the actual listing track, and mapped the resulting failure of conversion and refixing provisions into charter and investment-agreement amendments.
+
+**3. FINANCIAL CRIME & DIGITAL ASSETS**
+- Advised a blockchain infrastructure provider on the **foreign-exchange and AML/CFT implications** of USD-stablecoin mint and redemption operations.
+- Advised game and content issuers on token economics and token buyback arrangements.
+- Advised the Ministry of Trade, Industry and Energy on a comparative review of regulatory regimes for electric and autonomous vehicles, robotics and drones.
+
+**4. M&A, PRIVATE EQUITY & CAPITAL MARKETS** *(기존 항목을 4~5개로 압축)*
+
+### 3.3 EXPERIENCE 내 불릿 순서 조정
+
+- **D'STRICT**: `Oversee disputes and enforcement…`(규제·형사)와 `Advise on the foreign-exchange and AML/CFT…`를 **2·3번째로 올리고**, fundraising·IR은 아래로.
+- **DENTONS LEE**: ITC 불릿을 **첫 번째로** 올리고, 2021 내부조사 자문 한 줄 추가.
+- **JAG CORPS**: `Investigated and prosecuted…`가 이미 첫 불릿 — 유지.
+
+---
+
+## 4. 지금 가장 중요한 질문 — 내부조사 실적이 있습니까
+
+현 이력서에는 **내부조사(internal investigation) 실적이 한 건도 없습니다.** 그런데 CLO로 3년 넘게 5개국 그룹을 맡으셨다면, 아래 중 최소 몇 건은 실제로 하셨을 가능성이 높습니다. **거래·자문 중심 이력서라 빠졌을 뿐**일 수 있습니다.
+
+**체크해 주십시오 — 해당되는 것이 있다면 그것이 이 지원의 승부처입니다.**
+
+- [ ] 임직원 **횡령·배임·유용** 의혹 조사 (규모·건수)
+- [ ] **구매·외주·벤더 관련 리베이트**나 이해상충 조사
+- [ ] **직장 내 괴롭힘·성희롱 신고** 처리 (근로기준법 §76조의3 / 남녀고용평등법 §14상 법정 조사)
+- [ ] **제보 채널** 설계·운영 (익명 제보 포함), 제보 접수 후 처리 프로세스 수립
+- [ ] 임직원 **비위·정책위반** 조사 후 징계 절차 진행, 인사위원회 대응
+- [ ] **퇴사자 영업비밀·자료 반출** 조사
+- [ ] 해외 법인(미국·일본·대만·중국)에서 발생한 비위 사안 조사·지원
+- [ ] 그룹 **행동강령(Code of Conduct)** 제정·개정
+- [ ] 조사 결과에 따른 **노동위원회 부당해고 구제신청** 대응
+
+각 건에 대해 필요한 정보:
+1. **유형** (Fraud / HR / 이해상충 / 정책위반)
+2. **본인 역할** — 직접 수행 / 주도 / 감독·지시 *(공고 필수요건 ③은 "독립적으로 수행하고 종결")*
+3. **규모** — 인터뷰 몇 명, 검토 자료 몇 건, 관련 금액, 소요 기간
+4. **결과** — 결론과 실제 조치 (징계 / 고소 / 제도개선), 사후 분쟁 유무
+
+---
+
+## 5. 시나리오 B·C인 경우 — 대안 검토
+
+내부조사 실적이 없거나 약하다면, 같은 회사의 **다른 포지션이 훨씬 높은 적합도**를 가집니다. 이 프로필(미국 상장 준비 총괄 + D.C. Bar + AICPA + 자본시장 + AML/CFT)은 조사직보다 아래에 정확히 맞습니다.
+
+| 대안 포지션 | 이 프로필과의 정합 |
+|---|---|
+| **Senior, Internal Auditor (Global SOX)** *(같은 페이지에 게재됨)* | 미국 상장 준비·내부회계관리제도·공시 대응력 경험 + **AICPA 시험 합격** — 직접 정합 |
+| **Compliance — Capital Markets / Corporate Governance** | 미국 상장사 거버넌스, 이사회 운영, 특수관계자 정리 |
+| **Compliance — AML / Sanctions / Financial Crime** | USD 스테이블코인 AML/CFT 자문 경험 |
+| **Legal — Corporate / Cross-border** | 17년 M&A·PE·자본시장, 5개국 법인 관리 |
+
+**권고**: 쿠팡 채용 사이트에서 위 키워드로 열린 공고를 먼저 확인하십시오. 조사직과 **병행 지원**하는 것이 합리적이며, 리크루터 접촉 시 *"Global Investigations에 지원했는데, 제 이력이 오히려 SOX 내부감사나 자본시장 컴플라이언스에 더 맞을 수도 있을 것 같다"* 고 열어 두면 **팀 내 재배치 제안**을 받을 가능성이 있습니다.
+
+---
+
+## 6. 제출 전 점검
+
+- [ ] **"Amazon 재직"으로 읽힐 표현이 한 곳도 없는가** (실제: 덴톤스리 파트너 재직 중 2개월 외부 자문)
+- [ ] 2021 내부조사 자문이 **덴톤스리 경력 안에 한 줄**로만 있는가
+- [ ] 의뢰인명 대신 "미국 상장 글로벌 이커머스 기업"으로 일반화했는가
+- [ ] **PROFILE 첫 문장이 조사·수사·규제**로 시작하는가 (M&A 아님)
+- [ ] **REPRESENTATIVE MATTERS 맨 위가 INVESTIGATIONS**인가
+- [ ] 군 법무관 **"수사·기소"** 가 눈에 띄는가 — 이력서 전체에서 investigate가 등장하는 핵심 자리
+- [ ] **총 경력 17년**이 PROFILE 첫 줄에 있는가 (필수요건 ② 즉시 충족 신호)
+- [ ] **변호사 + D.C. Bar + AICPA 시험 합격**이 1페이지에 보이는가 (우대④ 이중 충족)
+- [ ] **일본어 business level** 표기 (해외 자회사 지원 요건에 유리)
+- [ ] §4의 내부조사 실적이 반영되었는가 — **이것이 없으면 나머지가 다 소용없습니다**
+- [ ] 국·영문 PDF 2종 준비

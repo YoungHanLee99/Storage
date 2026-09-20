@@ -1,46 +1,53 @@
 # 지원 실행 패키지 — 쿠팡 Global Investigations (Principal)
 
-> 관련 문서: [분석](./coupang-global-investigations-principal.md) · [경력기술서·CV](./coupang-investigations-resume-draft.md) · [면접 대비](./coupang-investigations-interview-prep.md) · [워크시트](./coupang-investigations-experience-worksheet.md)
+> **2026-09-21 개정 (2판).** 실제 이력서 반영. 이전 판의 "Amazon 재직" 전제는 폐기했습니다.
+> 관련 문서: [분석](./coupang-global-investigations-principal.md) · [경력기술서·CV](./coupang-investigations-resume-draft.md) · [면접 대비](./coupang-investigations-interview-prep.md)
 
 ---
 
-## 0. 대리 제출이 불가능한 이유 — 먼저 확인
+## 0. 먼저 — 두 가지 확인
+
+**① 대리 제출은 불가능합니다.**
 
 | 차단 요인 | 상태 |
 |---|---|
-| **네트워크** | 이 작업 환경의 egress 정책상 `www.coupang.jobs` 가 **차단**되어 있습니다 (CONNECT 403, policy denial). 지원 포털에 접근 자체가 불가합니다. |
-| **콘텐츠** | 경력기술서·CV가 아직 `[대괄호]` 플레이스홀더 상태입니다. 재직 기간·직함·사건 건수·변호사 등록 정보를 제가 추정해 채우면 **공고의 "지원서 내용 중 허위사실이 있는 경우 합격 취소" 조항에 직접 저촉**됩니다. |
-| **동의** | 지원은 개인정보 수집·이용 동의를 본인 명의로 하는 행위입니다. 대리 제출은 적절하지 않습니다. |
+| 네트워크 | 이 작업 환경의 egress 정책상 `www.coupang.jobs` 차단 (CONNECT 403). 포털 접근 불가 |
+| 동의 | 지원은 개인정보 수집·이용 동의를 본인 명의로 하는 행위 |
 
-→ **§4의 5개 항목만 채워 주시면 §1~§3이 즉시 제출 가능 상태가 됩니다.** 실제 제출(포털 로그인·업로드·동의 체크)은 본인이 5~10분이면 끝납니다.
+**② 지원 전에 [경력기술서·CV §4](./coupang-investigations-resume-draft.md)를 먼저 보십시오.**
+
+현 이력서에는 **내부조사 실적이 없습니다.** 공고 필수요건 ③⑤가 정확히 그것을 요구합니다. d'strict CLO로서 실제 수행한 조사 건이 있다면 경쟁력 있는 지원이 되고, 없다면 서류 통과 확률이 낮습니다. **아래 커버레터는 "실적이 있다"(시나리오 A)를 전제로 작성했습니다.**
 
 ---
 
 ## 1. 커버레터 — 국문
 
-> 쿠팡 지원서에 자기소개 입력란이 있으면 그대로, 없으면 이력서 1페이지 상단에 요약 형태로 배치하십시오.
-
----
-
 **지원 포지션: 내부조사 선임 담당자 (Global Investigations), Principal**
 
-저는 미국 상장 글로벌 이커머스 기업의 조사 기능을 **Fraud·Compliance와 HR 양쪽에서** 직접 수행했고, 이후 그 조사 결론이 법적 판단·징계·공시로 이어지는 지점을 **인하우스 총괄로서 책임져 본** 조사 전문가입니다.
+저는 **수사와 기소로 법조 경력을 시작해, 증거개시와 형사·규제 대응을 거쳐, 현재 5개국 그룹의 법무·거버넌스를 총괄하고 있는 17년차 변호사**입니다. 한국과 워싱턴 D.C. 양쪽에 변호사로 등록되어 있고, 미국 통일 CPA 시험에 합격했습니다.
 
-Amazon [일본/싱가포르] 법인에서 [N]년간 **Ethics & Business Conduct**(윤리·부정 조사)와 **Employee Relations Centralized Investigations**(직장 내 괴롭힘·차별·보복 조사)를 담당했습니다. 제보 인테이크와 트리아지부터 조사 계획 수립, 인터뷰, 시스템·거래 데이터 분석, 결론 도출, 최종 보고서와 시정조치 권고까지 사건을 단일 담당자로 종결했으며, [N]개국 법인이 얽힌 cross-border 사안에서는 국가별 노동법·개인정보 규제 충돌을 현지 자문과 함께 해소하며 조사를 완결했습니다.
+**사실을 규명하는 일로 커리어를 시작했습니다.** 육군 법무관으로 재직하며 군 형사사건을 직접 수사하고 기소했습니다. 진술과 증거가 어긋날 때 무엇을 먼저 확보해야 하는지, 신문 순서를 어떻게 정해야 하는지, 결론을 뒷받침할 증거가 부족할 때 어떻게 써야 하는지를 그때 배웠습니다.
 
-이후 ㈜디스트릭트[그룹]에서 CSO 겸 General Counsel로 일하며, 조사 보고서가 그 다음에 어떻게 되는지를 직접 봤습니다. 어떤 사실관계가 형법상 횡령·배임으로 번역되는지, 어떤 조사 기록이 노동위원회에서 징계를 무너뜨리는지, 직원 데이터 열람 근거를 사전에 설계해 두지 않으면 조사 자체가 어디서 위법수집으로 다투어지는지를 실무로 겪었습니다.
+**증거를 다루는 일은 이후에도 이어졌습니다.** Dentons(워싱턴 D.C. 및 서울)에서 미국 국제무역위원회(ITC)의 영업비밀 침해 조사를 대리하며 **증거개시 절차 전반을 총괄**했습니다. 증인신문을 직접 수행하고 방어했으며, 상대방의 증거개시 위반에 대한 **제재 신청을 주도해 인용받았고, 그에 따른 궐석판결을 위원회 단계에서 유지**시켰습니다. 대규모 문서 검토, 은폐 정황의 입증, 그리고 그것을 판단권자가 받아들이는 형태로 서면화하는 작업이 그 사건의 전부였습니다.
 
-**귀사의 공고를 읽고 지원을 결심한 이유는 두 가지입니다.**
+**법무법인 태평양과 덴톤스에서는 조사받는 쪽을 대리했습니다.** 메릴린치 전 한국대표의 형사 사건을 포함해 기업과 임원의 형사·규제 절차를 다수 대리했습니다. 수사기관이 무엇을 보고 어떻게 판단하는지, 회사가 만든 기록이 나중에 어떻게 쓰이는지를 반대편에서 지켜본 경험은 조사를 설계할 때 그대로 쓰입니다.
 
-첫째, 이 포지션은 Fraud·Compliance 사건과 HR 사건을 **한 사람이 모두** 다루도록 설계되어 있습니다. 국내에서는 두 기능이 대개 분리되어 있어, 양쪽을 모두 수행해 본 조사 인력이 많지 않습니다. 제가 아마존에서 해 온 일이 정확히 그 조합입니다.
+**현재는 ㈜디스트릭트코리아에서 CSO 겸 CLO로** 한국·미국·일본·대만·중국 5개국의 그룹 법무를 총괄합니다. 규제기관 조사와 형사 절차를 직접 관장하고, 해외 자회사·합작법인의 거버넌스와 준법 관리를 담당하며, Big4 자문사와 함께 **미국 상장 준비**를 이끌고 있습니다 — 지주구조, 특수관계자 거래 정리, **공시 대응력과 내부회계관리 요건**까지. USD 스테이블코인 발행·상환 거래의 **외환·AML/CFT 규제 검토**도 제가 맡고 있습니다.
 
-둘째, 쿠팡은 미국 상장 법인이면서 한국 법제 아래에서 조사를 수행해야 하는 회사입니다. 이 교차점은 실무적으로 까다롭습니다. 미국식 조사 거버넌스(SOX상 감사위원회 제보 접수 체계, 제보자 보호의 국내법·연방법 중첩)와, 한국 특유의 제약(직장 내 괴롭힘 조사의 법정 의무와 시한, 사내변호사 작성 문서의 제한적 보호)은 서로 다른 설계를 요구합니다. **저는 앞의 것을 아마존에서, 뒤의 것을 한국에서 법률 총괄로서 겪었습니다.** 양쪽을 아는 조사 인력이 지금 귀사에 필요한 역량이라고 판단했습니다.
+**[내부조사 실적 단락 — §4의 확인 결과를 여기에 삽입]**
+> *예시: 재직 중 [유형] 사안 [N]건을 직접 조사했습니다. 제보 접수 후 착수 여부와 범위를 제가 결정했고, 관계자 [N]명을 면담하고 [자료] [N]건을 검토해 결론을 도출한 뒤 [징계/고소/제도개선]까지 연결했습니다. 직장 내 괴롭힘 신고 [N]건은 근로기준법 제76조의3상 법정 조사의무에 따라 접수 즉시 피해자 보호조치를 시행하고 [N]일 내에 종결했습니다.*
 
-한 가지를 먼저 말씀드리는 편이 나을 것 같습니다. 현재 C-level 직책을 맡고 있는 제가 Principal 포지션에 지원하는 것은 **의도적인 선택**입니다. 조사에서 법무 총괄로 넘어간 것은 조사 결론 이후를 책임지고 싶어서였고, 두 가지를 모두 해 본 지금 제가 가장 잘하고 가장 하고 싶은 일은 **사안 자체를 끝까지 파고드는 조사**입니다. 관리 범위를 넓히는 것보다, 두 경험이 다 있어야 풀 수 있는 난도의 사건을 맡는 자리를 찾고 있습니다. 조사관은 조사 대상에 대한 인사권 없이 협조를 끌어내야 하는 직무이고, 귀사의 리더십 원칙 중 **Influence without Authority**가 제가 지난 [N]년간 매일 해 온 일이라고 생각합니다.
+**귀사에 지원하는 이유는 두 가지입니다.**
+
+첫째, 쿠팡은 **미국 상장 법인이면서 한국 법제 아래에서 조사를 수행해야 하는** 회사입니다. 이 교차점은 까다롭습니다. 미국식 거버넌스(감사위원회 제보 접수 체계, 상장사 내부고발자 보호)와 한국 특유의 제약 — 직장 내 괴롭힘 조사의 법정 의무와 시한, 사내변호사 작성 문서의 제한적 보호, 직원 데이터 열람 근거의 사전 설계 필요성 — 은 서로 다른 설계를 요구합니다. 저는 **양쪽 법역에서 자격을 갖고 실무를 해 왔고**, 지금 미국 상장 준비를 직접 이끌면서 그 간극을 매일 다루고 있습니다.
+
+둘째, 이 포지션은 Fraud·Compliance 사건과 HR 사건을 **한 사람이 모두** 다루도록 설계되어 있고, 조사 결론에서 멈추지 않고 **권고와 개선까지** 요구합니다. 대부분의 조사 전문가는 사실규명에서 끝납니다. 저는 그 사실이 형법상 횡령·배임에 해당하는지, 징계로 갔을 때 노동위원회에서 버티는지, 공시 의무를 발생시키는지를 **조사 단계에서 함께 판단**할 수 있습니다.
+
+한 가지를 먼저 말씀드리는 편이 나을 것 같습니다. 현재 C-level 직책에 있는 제가 Principal 포지션에 지원하는 것은 **의도적인 선택**입니다. 법무 총괄은 넓지만 얕습니다. 제가 가장 잘하고 가장 하고 싶은 일은 **사안 하나를 끝까지 파고들어 사실을 확정하는 일**이고, 그 감각은 수사·기소로 시작한 커리어에서 온 것입니다. 관리 범위를 넓히기보다, 법률 판단과 조사 실무가 모두 필요한 난도의 사건을 맡는 자리를 찾고 있습니다. 조사관은 조사 대상에 대한 인사권 없이 협조를 끌어내야 하는 직무이고, 귀사의 리더십 원칙 중 **Influence without Authority**가 제가 군에서도, 로펌에서도, 지금 자리에서도 해 온 일입니다.
 
 감사합니다.
 
-[성명]
+이영한 (Young-Han LEE)
 
 ---
 
@@ -48,158 +55,143 @@ Amazon [일본/싱가포르] 법인에서 [N]년간 **Ethics & Business Conduct*
 
 **Position: Principal, Global Investigations**
 
-I am an investigations professional who has run the ethics and compliance investigation function of a US-listed global e-commerce company across **both fraud and workplace matters**, and who has since been accountable, as in-house General Counsel, for what happens after a finding.
+I began my legal career **investigating and prosecuting**, moved through **evidence discovery and criminal and regulatory defence**, and now run the legal and governance function of a five-country group. I am admitted in **Korea and Washington, D.C.**, passed the **Uniform CPA Examination**, and have seventeen years of practice.
 
-At Amazon [Japan / Singapore], I spent [N] years across **Ethics & Business Conduct** and **Employee Relations Centralized Investigations**. I owned matters end to end — intake and triage, investigation planning, interviews, analysis of transactional and system-log data, adjudication, closing reports and remedial recommendations. In cross-border matters spanning [N] APAC entities, I designed collection and review structures that held up against conflicting local employment and data-protection requirements, working with local counsel to bring each matter to closure.
+**Establishing facts is where I started.** As a Judge Advocate in the Republic of Korea Army, I investigated and prosecuted criminal matters. That is where I learned what to secure first when testimony and evidence diverge, how to sequence interviews, and how to write a finding when the evidence will not carry the conclusion you expected.
 
-I then moved to d'strict [Group] as Chief Strategy Officer and General Counsel, where I saw what happens to an investigation report after it is delivered: which findings translate into criminal exposure under the Korean Criminal Code, which interview records cause a disciplinary action to be overturned at the Labor Relations Commission, and where an investigation itself becomes contestable as unlawful collection when the basis for reviewing employee data was not designed in advance.
+**Handling evidence stayed with me.** At Dentons in Washington, D.C. and Seoul, I **led discovery and motions practice** in a U.S. International Trade Commission investigation involving trade-secret misappropriation. I took and defended depositions, drafted and won a **motion for sanctions** against the opposing party for discovery misconduct, and **sustained the resulting default judgment before the Commission**. Large-scale document review, proving concealment, and writing it up so a decision-maker would adopt it — that case was all three.
+
+**At Bae, Kim & Lee and Dentons I acted for the people being investigated.** I represented companies and their executives in Korean criminal and regulatory proceedings, including the former Head of Korea of Merrill Lynch. Watching from that side — what investigators look at, how a company's own records are later used — is directly useful when designing an investigation.
+
+**Today, as Chief Strategy Officer and Chief Legal Officer of d'strict Korea,** I run the group legal function across Korea, the United States, Japan, Taiwan and China. I oversee regulatory and criminal proceedings, govern overseas subsidiaries and joint ventures, and direct **U.S. listing preparation** with a Big Four advisor — holding structure, related-party clean-up, **disclosure readiness and internal accounting control**. I also handle the **foreign-exchange and AML/CFT** analysis for USD-stablecoin mint and redemption operations.
+
+**[Insert internal-investigation paragraph once §4 is confirmed]**
 
 **Two things drew me to this role.**
 
-First, the posting asks **one person** to carry both fraud and compliance matters and HR matters. In Korea these functions are usually split, so few investigators have run both. That combination is exactly what I did at Amazon.
+First, Coupang is a **US-listed issuer that must investigate under Korean law**. That intersection is genuinely difficult: US-style governance — audit-committee intake of complaints, issuer whistleblower protection — sits alongside Korea-specific constraints, including the statutory duty and timing for workplace harassment investigations, the limited protection afforded to documents prepared by in-house counsel, and the need to establish the basis for reviewing employee data in advance. I hold qualifications on **both sides of that line** and work the gap daily in listing preparation.
 
-Second, Coupang is a US-listed issuer that must investigate under Korean law. That intersection is genuinely difficult: US-style governance (audit-committee reporting of complaints under SOX, whistleblower protection layered across federal and Korean statutes) and Korea-specific constraints (the statutory duty and timing for workplace harassment investigations; the limited protection afforded to documents prepared by in-house counsel) call for different designs. **I learned the first at Amazon and the second as General Counsel in Korea.** I believe that combination is what this function needs right now.
+Second, the posting asks **one person** to carry both fraud and HR matters, and to go past the finding to recommendations and remediation. Most investigators stop at the facts. I can assess, at the investigation stage, whether those facts amount to embezzlement or breach of trust under the Criminal Act, whether the resulting discipline survives the Labor Relations Commission, and whether a disclosure obligation is triggered.
 
-One thing is better said up front. Applying to a Principal role from a C-level seat is a deliberate choice. I moved from investigations into a General Counsel role because I wanted to own what came after a finding. Having now done both, the work I do best and want to keep doing is the investigation itself — not a wider management span, but the matters that require both halves of that experience to solve. An investigator has no line authority over anyone they investigate, which is why **Influence without Authority** describes what I have been doing every day for the past [N] years.
+One thing is better said up front. Applying to a Principal role from a C-level seat is deliberate. A general counsel's remit is wide but shallow. What I do best, and want to keep doing, is taking a single matter apart until the facts are settled — an instinct that goes back to prosecuting. I am looking for a seat where the hard matters land, not a wider span. An investigator has no line authority over anyone they investigate, which is why **Influence without Authority** describes what I have been doing in uniform, in private practice, and in my current seat.
 
 Thank you for your consideration.
 
-[Name]
+Young-Han LEE
 
 ---
 
-## 3. 지원서 입력 가이드 — 필드별
-
-> 쿠팡 채용 포털([coupang.jobs](https://www.coupang.jobs/kr/)) 기준. 실제 폼 구성은 변동될 수 있습니다.
+## 3. 지원서 입력 가이드
 
 ### 3.1 기본 정보
 
-| 필드 | 입력 내용 | 주의 |
-|---|---|---|
-| 성명(국문/영문) | [ ] | 영문은 **여권 표기와 일치**시킬 것 |
-| 이메일 | [ ] | 전형 결과가 이 주소로만 통지됩니다 |
-| 연락처 | [ ] | — |
-| 거주지 | 서울 [ ] | 근무지가 서울이므로 이주 이슈 없음을 드러내는 편이 유리 |
-
-### 3.2 경력 사항
-
-| 필드 | 입력 내용 |
+| 필드 | 입력 |
 |---|---|
-| 현 직장 / 직책 | ㈜디스트릭트[그룹] / CSO 겸 General Counsel |
-| 재직 기간 | [YYYY.MM] ~ 재직 중 |
-| 직전 직장 | Amazon [법인명] |
-| 직전 직책 | **[직함]** — *아마존 레벨(L5/L6)은 기재하지 말 것* |
-| 재직 기간 | [YYYY.MM] ~ [YYYY.MM] |
-| 총 경력 | **[N]년** — 공고 요건은 Investigation/Compliance/Audit/Risk **12년 이상**. 변호사 실무 포함 산정 근거를 스스로 정리해 둘 것 |
+| 성명 | 이영한 / Young-Han LEE |
+| 이메일 | younghanlee040@gmail.com |
+| 연락처 | (+82) 10-7315-6400 |
+| 거주지 | 서울 강남구 학동로 (근무지 서울 — 이주 이슈 없음) |
 
-### 3.3 학력·자격
+### 3.2 경력·학력·자격
 
-| 필드 | 입력 내용 |
+| 필드 | 입력 |
 |---|---|
-| 최종 학력 | [학위 / 전공 / 학교 / 졸업연도] — 공고 요건: 경영·형사사법·법학·컴플라이언스 관련 학사 이상 |
-| 자격 | **대한민국 변호사** ([사법연수원 N기 / 변호사시험 N회]) — **우대사항 ④ 직접 충족이므로 반드시 기재** |
-| 어학 | 영어 [수준], [일본어 수준] — *일본 법인 재직 시 일본어는 강한 차별점* |
+| 현 직장 / 직책 | ㈜디스트릭트코리아 / CSO 겸 CLO (2023.8~) |
+| **총 경력** | **17년** — *반드시 명시. 필수요건 ② 12년을 즉시 충족시키는 신호* |
+| 직전 경력 | 법무법인(유) 덴톤스리 파트너 (2020.8~2023.7) / Dentons US LLP Associate (2019.8~2020.8) / 법무법인(유) 태평양 Senior Associate (2014.4~2019.7) / 육군 법무관 (2009.4~2014.3) |
+| 최종 학력 | Georgetown University Law Center LL.M. (2019.5) — *학사: 서울대 법학사(2005.2), 공고 요건 "법학 학사 이상" 충족* |
+| **자격** | **대한민국 변호사(2009.1) · Washington D.C. Bar(2014.9) · AICPA 통일 CPA 시험 합격(Maine, 2012.6)** ← 우대④ 이중 충족, 반드시 전부 기재 |
+| 어학 | 영어 full professional / **일본어 business level** |
 
-### 3.4 기타 입력란
+### 3.3 기타
 
-| 필드 | 권장 입력 |
+| 필드 | 권장 |
 |---|---|
-| 지원 경로 | [채용 사이트 / 지인 추천 / 링크드인] — 추천인이 있으면 반드시 기재 |
-| 희망 연봉 | **"회사 내규에 따름" 또는 협의 희망**으로 두는 것을 권장 (§5 참조) |
-| 입사 가능일 | [ ] — 현직 인수인계 고려한 현실적 시점 |
-| 취업보호대상자 여부 | 해당 시 기재 (법령상 우대) |
-| 자기소개 / 지원동기 | **§1 커버레터를 그대로 사용** |
+| 희망 연봉 | **"협의" 또는 "내규에 따름"** — 현금과 RSU를 분리해 통화에서 협상 (§6) |
+| 입사 가능일 | [현직 인수인계 고려] |
+| 지원 경로 | 추천인이 있으면 반드시 기재 |
+| 자기소개 / 지원동기 | §1 커버레터 |
 
-### 3.5 첨부 파일
+### 3.4 첨부
 
-- [ ] **국문 경력기술서** (PDF) — 파일명 예: `경력기술서_[성명]_쿠팡GlobalInvestigations.pdf`
-- [ ] **영문 CV** (PDF) — `CV_[Name]_Coupang_GlobalInvestigations.pdf`
-  - *GC 겸 CCO가 미국인이고 본사 보고 라인이 영어입니다. 영문 CV는 선택이 아니라 필수로 보십시오.*
-- [ ] 변호사 자격 증빙 (요청 시)
-- [ ] 학위증명서 (요청 시)
-
-### 3.6 개인정보 동의
-
-- 쿠팡 그룹 [입사지원자 개인정보 처리방침](https://www.coupang.jobs/kr/privacy-policy/) 동의 필요
-- 서류 반환 청구: 온라인 제출분은 반환 대상에서 제외됨 (채용절차법 §11⑥ 고지사항)
+- [ ] 국문 경력기술서 PDF — `경력기술서_이영한_쿠팡GlobalInvestigations.pdf`
+- [ ] 영문 CV PDF — `CV_YoungHan_LEE_Coupang_GlobalInvestigations.pdf` ([CV §3](./coupang-investigations-resume-draft.md)의 PROFILE·MATTERS 교체판)
+- [ ] 개인정보 수집·이용 동의 ([처리방침](https://www.coupang.jobs/kr/privacy-policy/))
 
 ---
 
-## 4. 제가 필요한 것 — 이것만 주시면 §1~§3이 완성됩니다
+## 4. 커버레터 완성에 필요한 것 — 하나뿐입니다
 
-| # | 항목 | 용도 |
-|:-:|---|---|
-| 1 | **Amazon 재직 기간(시작·종료 YYYY.MM)과 직함** | 커버레터, 경력기술서, 지원서 경력란 |
-| 2 | **EBC / ER 각각의 연간 처리 건수 또는 누적 사건 수**, cross-border 관련 국가 수 | 모든 문서의 숫자 플레이스홀더 |
-| 3 | **총 경력 연수와 그 산정 근거** (변호사 실무 포함 여부) | 필수요건 ② 12년 충족 입증 |
-| 4 | **대표 사건 3~5건** — 익명화 상태로 유형·규모·본인 역할·결과만 | 경력기술서 §1.4, CV Selected Matters, STAR 스토리 |
-| 5 | **변호사 자격 정보** (사법연수원 기수 또는 변호사시험 회차), 최종 학력, Case Management System 도구명, 일본어 수준 | 자격·학력란, 우대사항 ③④ |
+**d'strict CLO로서 수행한 내부조사 실적.** 있으면 §1·§2의 `[내부조사 실적 단락]`에 넣고, 이력서 최상단에도 올립니다. 필요한 정보:
+
+1. **유형** — 횡령·배임 / 이해상충·리베이트 / 직장 내 괴롭힘·성희롱 / 정책위반 / 영업비밀 반출
+2. **본인 역할** — 직접 수행 / 주도 / 감독·지시 *(필수요건 ③은 "독립적으로 수행하고 종결")*
+3. **규모** — 인터뷰 인원, 검토 자료 건수, 관련 금액, 소요 기간
+4. **결과** — 결론과 실제 조치, 사후 분쟁 유무
+
+> 없다면 [CV §5](./coupang-investigations-resume-draft.md)의 대안 포지션(SOX 내부감사 등)을 먼저 보십시오.
 
 ---
 
 ## 5. 제출 전략 — 포털 단독 지원은 권하지 않습니다
 
-Principal급 포지션은 **포털 지원서만으로는 1차 스크리닝에서 묻힐 위험**이 있습니다. 세 경로를 병행하십시오.
+### 5.1 경로 ①: 포털 지원 (필수)
+[쿠팡 채용 사이트](https://www.coupang.jobs/kr/)에서 공고 검색 후 접수. **조기 마감 가능**하므로 우선 접수.
 
-### 5.1 경로 ①: 공식 포털 지원 (필수)
-
-[쿠팡 채용 사이트](https://www.coupang.jobs/kr/)에서 해당 공고를 검색해 지원. 공고는 **모집 완료 시 조기 마감**될 수 있으므로 우선 접수해 두는 것이 안전합니다.
-
-### 5.2 경로 ②: 리크루터 직접 접촉 (권장)
-
-LinkedIn에서 쿠팡 Talent Acquisition 중 **Legal/Compliance 담당자** 또는 Global Investigations 팀 리더를 검색해 InMail. 아래 초안 사용:
+### 5.2 경로 ②: 리크루터 직접 접촉 (권장) — LinkedIn InMail 초안
 
 > 안녕하세요. 쿠팡 Global Investigations Principal 포지션(내부조사 선임 담당자)에 지원했습니다.
 >
-> Amazon [법인]에서 Ethics & Business Conduct와 Employee Relations 조사를 [N]년간 담당하며 Fraud·Compliance 사건과 HR 사건을 모두 단독 종결했고, 이후 디스트릭트에서 CSO 겸 General Counsel로 그 결론이 법적 판단과 징계·공시로 이어지는 단계를 맡았습니다. 대한민국 변호사입니다.
+> 한국·워싱턴 D.C. 양쪽 변호사이고 미국 CPA 시험에 합격한 17년차입니다. 육군 법무관으로 **군 형사사건을 직접 수사·기소**하며 시작했고, 미국 ITC 조사에서 **증거개시를 총괄**하며 증인신문과 제재 신청을 주도해 궐석판결까지 받았습니다. 이후 태평양·덴톤스에서 기업·임원의 형사·규제 사건을 대리했고, 현재 ㈜디스트릭트코리아 CSO 겸 CLO로 5개국 그룹 법무와 규제·형사 절차를 총괄하며 Big4와 미국 상장 준비(특수관계자 정리·공시 대응력·내부회계관리)를 이끌고 있습니다. [내부조사 실적 한 줄]
 >
-> 공고가 두 사건 유형을 한 사람이 다루도록 설계되어 있는 점, 그리고 미국 상장사 거버넌스와 한국 법제가 동시에 걸리는 환경이라는 점에서 제 경험이 직접 맞닿아 있다고 생각합니다.
+> 공고가 미국 상장사 거버넌스와 한국 법제가 동시에 걸리는 환경을 전제하고 있어, 양쪽 법역에서 자격을 갖고 실무해 온 제 이력이 맞닿는다고 생각합니다. 다만 제 배경이 Global Investigations보다 **SOX 내부감사나 자본시장·거버넌스 컴플라이언스**에 더 맞을 여지도 있어, 팀 내 다른 포지션도 열어 두고 말씀 나눌 수 있습니다.
 >
-> 짧게라도 통화 기회를 주시면 감사하겠습니다. 이력서는 지원서에 첨부해 두었습니다.
+> 짧게라도 통화 기회를 주시면 감사하겠습니다.
 >
-> [성명] · [연락처]
+> 이영한 · younghanlee040@gmail.com · 010-7315-6400
 
-**영문판**
+**English**
 
 > Hello — I've applied for the Principal, Global Investigations role in Seoul.
 >
-> I spent [N] years at Amazon [entity] across Ethics & Business Conduct and Employee Relations Centralized Investigations, independently closing both fraud/compliance and workplace matters, including cross-border matters across [N] APAC entities. I then moved to d'strict as CSO & General Counsel, owning what happens after a finding — criminal exposure, defensible discipline, disclosure. I'm a qualified Korean attorney.
+> I'm a Korean and Washington, D.C. attorney with seventeen years of practice and a passed Uniform CPA Examination. I began as a Judge Advocate **investigating and prosecuting** criminal matters, then **led discovery and motions practice** in a U.S. ITC investigation — taking and defending depositions, winning sanctions against the opposing party and sustaining the default judgment before the Commission. I later represented companies and executives in Korean criminal and regulatory proceedings, and I'm now CSO & Chief Legal Officer of d'strict Korea, running group legal across five countries and directing U.S. listing preparation with a Big Four advisor. [one line on internal investigations]
 >
-> Two things in the posting map directly to my background: it asks one person to carry both fraud and HR matters, and it sits at the intersection of US-listed governance and Korean law. I've worked both sides of that.
+> The posting sits where US-listed governance meets Korean law, and I hold qualifications on both sides of that line. That said, my background may map as well or better onto **SOX internal audit or capital-markets/governance compliance** — I'd be glad to discuss either.
 >
-> I'd welcome a short call. My CV is attached to the application.
+> I'd welcome a short call.
 >
-> [Name] · [Contact]
+> Young-Han LEE · younghanlee040@gmail.com · +82 10-7315-6400
 
-### 5.3 경로 ③: 내부 추천 (가장 강력)
+> **왜 대안 포지션을 먼저 언급하는가**: 리크루터가 이 프로필을 보면 어차피 같은 생각을 합니다. 먼저 꺼내면 **자기 이력을 정확히 아는 후보**로 읽히고, 조사직에서 탈락하더라도 **다른 자리로 넘어갈 통로**가 열립니다. 숨기면 그냥 미스핏으로 끝납니다.
 
-쿠팡 재직 중인 **아마존 출신 지인**이 있는지 확인하십시오. 쿠팡 리더십에 아마존 출신이 다수이고, 내부 추천은 포털 지원 대비 스크리닝 통과율이 현저히 높습니다. 추천이 확보되면 **지원서의 "지원 경로"란에 반드시 기재**하십시오.
+### 5.3 경로 ③: 내부 추천
+쿠팡 재직 중인 지인(특히 Legal·Compliance) 확인. 내부 추천은 포털 지원 대비 스크리닝 통과율이 현저히 높고, **필수요건 ③ 같은 기계적 필터를 넘기는 거의 유일한 방법**입니다.
+
+### 5.4 경로 ④: 병행 지원
+[CV §5](./coupang-investigations-resume-draft.md)의 대안 포지션(**Senior, Internal Auditor — Global SOX** 등)을 함께 지원. 같은 회사 내 복수 지원은 일반적이며, AICPA 시험 합격 + 미국 상장 준비 경험은 SOX 포지션에 **직접** 정합합니다.
 
 ---
 
-## 6. 보상 관련 참고
+## 6. 보상 참고
 
-> **주의**: 아래 수치는 제3자 채용 집계 사이트에 표기된 값이며 **쿠팡 공식 공고에는 연봉이 명시되어 있지 않습니다.** 총보상 기준인지 기본급 기준인지, RSU 포함 여부가 불명확하므로 **협상 기준이 아니라 대략의 눈높이 참고용**으로만 쓰십시오.
+> 제3자 채용 집계 사이트 표기: **₩105M ~ ₩150M** (Legal 부문, Principal, 서울). **쿠팡 공식 공고에는 연봉이 없습니다.** 총보상/기본급 구분과 RSU 포함 여부가 불명확하므로 눈높이 참고용으로만.
 
-- 집계 사이트 표기: **₩105M ~ ₩150M** (Legal 부문, Principal 레벨, 서울)
-- 쿠팡은 NYSE 상장사로 **CPNG RSU가 총보상의 상당 비중**을 차지합니다. 현금과 주식을 반드시 분리해 협상하십시오.
-- 현 주가 하락 국면은 **부여 수량 관점에서 오히려 유리**할 수 있습니다.
-- 지원서의 희망 연봉란은 **"협의" 또는 "내규에 따름"** 으로 두고, 리크루터 통화에서 현재 총보상(현금 + 주식 + 기타)을 기준으로 협상하는 것이 일반적으로 유리합니다.
-
-→ 협상 우선순위 5단계는 [분석 §6.3](./coupang-global-investigations-principal.md) 참조.
+- 쿠팡은 NYSE 상장사 — **CPNG RSU가 총보상의 상당 비중.** 현금과 주식을 분리해 협상
+- 현 주가 하락 국면은 부여 수량 관점에서 유리할 수 있음
+- 협상 우선순위 5단계 → [분석 §6.3](./coupang-global-investigations-principal.md)
 
 ---
 
 ## 7. 제출 당일 체크리스트
 
-- [ ] 경력기술서·CV의 `[대괄호]` **전부** 제거 확인 (Ctrl+F로 `[` 검색)
-- [ ] 아마존 약어(EBC·ERCI·COE) 풀어쓰기 완료
-- [ ] 아마존 레벨(L5/L6) 표기 없음 확인
-- [ ] HR 조사와 Fraud 조사가 **각각 독립 소제목**으로 보임
-- [ ] 단독 수행·종결 사건 2건 이상 명시
-- [ ] 변호사 자격이 1페이지 내 노출
-- [ ] 국문·영문 PDF 2종 준비, 파일명 정리
-- [ ] 커버레터 최종 검토 — 레벨 이슈 단락 포함 확인
+- [ ] **§4 내부조사 실적이 커버레터·이력서에 반영**되었는가 — 최우선
+- [ ] "Amazon 재직"으로 읽힐 표현이 없는가 (실제: 덴톤스리 재직 중 2개월 외부 자문)
+- [ ] 의뢰인명 대신 "미국 상장 글로벌 이커머스 기업"으로 일반화
+- [ ] **총 경력 17년** 명시
+- [ ] **변호사 + D.C. Bar + AICPA 시험 합격** 1페이지 노출
+- [ ] CV의 PROFILE·REPRESENTATIVE MATTERS가 조사 우선으로 재배열되었는가
+- [ ] 국·영문 PDF 2종
 - [ ] 개인정보 동의 체크
 - [ ] 제출 후 **리크루터 InMail 발송** (§5.2)
+- [ ] **SOX 내부감사 등 대안 포지션 병행 지원 검토** (§5.4)
 - [ ] 지원 일시·공고 URL 기록 → 2주 무응답 시 팔로업
