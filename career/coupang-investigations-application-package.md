@@ -138,15 +138,17 @@ Young-Han LEE
 
 ### 5.2 경로 ②: 리크루터 직접 접촉 — **이번엔 필수입니다**
 
-> **6개월 이내 다른 포지션 지원 이력이 있습니다.** 재지원 제한은 없지만(쿠팡 공식 FAQ상 동일 직무 재지원도 가능), ATS에서 리크루터에게 **즉시 보입니다.** 포털 단독 지원 시 리크루터가 그 기록을 먼저 보고 맥락 없이 판단하게 됩니다. **먼저 연락해 맥락을 주는 쪽이 유리합니다.**
+> **6개월 이내 다른 포지션에 지원해 서류 단계에서 탈락한 이력이 있습니다.**
 >
-> 프레이밍 원칙: **"아무 데나 넣는 사람"이 아니라 "맞는 자리를 찾아온 사람"**. 길게 설명하면 변명으로 읽히니 **두 문장 안에** 끝내십시오.
+> **InMail에서 먼저 꺼내지 마십시오.** 다른 직무의 서류 탈락은 시니어 후보에게 흔한 일이고, 면접을 보지 않았으므로 **면접관 디브리프 노트가 ATS에 없습니다.** 남은 것은 "다른 JD에 지원했다가 스크리닝에서 안 맞았음" 한 줄뿐입니다. 먼저 꺼내면 아무것도 아닌 일을 이슈로 만들고, 오프닝을 부정적인 내용에 씁니다.
+>
+> **대신 물으면 답할 준비만 하십시오** → [면접 대비 §2 Q2-1](./coupang-investigations-interview-prep.md)
+>
+> **리크루터 접촉이 중요한 이유는 다른 데 있습니다.** 지난번에 걸린 곳이 바로 서류 스크리닝입니다. 같은 관문을 다시 통과해야 하는데, 이번엔 서류가 완전히 달라졌지만 스크리너가 또 패턴 매칭할 위험은 남아 있습니다. **리크루터 접촉은 그 관문을 우회하는 가장 확실한 방법입니다.**
 
 **LinkedIn InMail 초안**
 
 > 안녕하세요. 쿠팡 Global Investigations Principal 포지션(내부조사 선임 담당자)에 지원했습니다.
->
-> 먼저 말씀드릴 것이 있습니다. 올해 [○월] **[직무명]** 포지션에 지원했다가 인연이 닿지 않았습니다. 그때 제 이력서는 M&A·자본시장 중심이었습니다. **이번은 다릅니다** — 제가 지금 실제로 하고 있는 일이 그룹 내부조사와 직장 내 괴롭힘 조사이고, 이 공고가 요구하는 Fraud·HR 양대 조사와 같은 구조입니다. 서류도 그에 맞춰 다시 정리했습니다.
 >
 > 한국·워싱턴 D.C. 양쪽 변호사이고 미국 CPA 시험에 합격한 17년차입니다. 육군 법무관으로 **군 형사사건을 직접 수사·기소**하며 시작했고, 미국 ITC 조사에서 **증거개시를 총괄**하며 증인신문과 제재 신청을 주도해 궐석판결까지 받았습니다. 이후 태평양·덴톤스에서 기업·임원의 형사·규제 사건을 대리했고, 현재 ㈜디스트릭트코리아 CSO 겸 CLO로 5개국 그룹 법무와 규제·형사 절차를 총괄하며 Big4와 미국 상장 준비(특수관계자 정리·공시 대응력·내부회계관리)를 이끌고 있습니다. [내부조사 실적 한 줄]
 >
@@ -159,8 +161,6 @@ Young-Han LEE
 **English**
 
 > Hello — I've applied for the Principal, Global Investigations role in Seoul.
->
-> One thing up front: I applied for the **[role]** position earlier this year and it didn't work out. My CV then was built around M&A and capital markets. This one is different — internal investigations and workplace harassment matters are what I actually do now, which is the same shape as the fraud-and-HR combination this role asks for, and I've rewritten my materials accordingly.
 >
 > I'm a Korean and Washington, D.C. attorney with seventeen years of practice and a passed Uniform CPA Examination. I began as a Judge Advocate **investigating and prosecuting** criminal matters, then **led discovery and motions practice** in a U.S. ITC investigation — taking and defending depositions, winning sanctions against the opposing party and sustaining the default judgment before the Commission. I later represented companies and executives in Korean criminal and regulatory proceedings, and I'm now CSO & Chief Legal Officer of d'strict Korea, running group legal across five countries and directing U.S. listing preparation with a Big Four advisor. [one line on internal investigations]
 >
