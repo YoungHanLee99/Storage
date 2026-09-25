@@ -1,13 +1,17 @@
 # 제출 파일 — 쿠팡 Global Investigations (Principal)
 
-생성일 2026-09-22 · **2026-09-25 내부조사 실적 반영 갱신** · 원본 이력서 `Resume_Young-Han_LEE_202609.docx` 기준
+생성일 2026-09-22 · **2026-09-25 내부조사 실적 반영 + PDF 생성** · 원본 이력서 `Resume_Young-Han_LEE_202609.docx` 기준
 
-| 파일 | 설명 | 상태 |
-|---|---|:---:|
-| `CV_YoungHan_LEE_Coupang_GlobalInvestigations.docx` | 영문 CV — 원본의 서식을 그대로 유지한 채 **PROFILE 교체 + 섹션 재배열**만 적용 | 제출 가능 |
-| `경력기술서_이영한_쿠팡GlobalInvestigations.docx` | 국문 경력기술서 — 신규 작성 | 제출 가능 |
-| `커버레터_이영한_쿠팡GlobalInvestigations.docx` | 커버레터 국문·영문 (2페이지) | 제출 가능 |
-| `build_kr.js` / `build_cl.js` | 국문 경력기술서·커버레터 생성 스크립트 (재생성용) | — |
+**제출은 PDF를 쓰십시오.** docx는 편집용입니다.
+
+| 파일 | 쪽수 | 설명 |
+|---|:--:|---|
+| `CV_YoungHan_LEE_Coupang_GlobalInvestigations.pdf` / `.docx` | 4 | 영문 CV — 원본 서식 유지, PROFILE 교체 + 섹션 재배열 + 내부조사 항목 추가 |
+| `경력기술서_이영한_쿠팡GlobalInvestigations.pdf` / `.docx` | 3 | 국문 경력기술서 — 신규 작성 |
+| `커버레터_이영한_쿠팡GlobalInvestigations.pdf` / `.docx` | 2 | 커버레터 (국문 1쪽 + 영문 1쪽) |
+| `build_kr.js` / `build_cl.js` | — | 국문 문서 생성 스크립트 (재생성용) |
+
+**PDF 생성 환경**: LibreOffice Writer 24.2 (이 세션에서 설치). 한글은 **나눔고딕** 임베딩 — 맑은 고딕이 리눅스에 없어 대체했으며, PDF에 폰트가 임베딩되어 있으므로 어느 환경에서 열어도 동일하게 보입니다. 영문 CV는 Liberation Serif(Times 계열 대체)로 렌더링됩니다. 세 파일 모두 렌더링 결과를 직접 확인했습니다.
 
 ## 영문 CV에 적용한 변경
 
@@ -50,7 +54,8 @@
 - [ ] 2021.7~8 아마존 관련 내부조사 자문을 Dentons Lee 경력에 추가할지 결정 (의뢰인명은 **"a US-listed global e-commerce client"** 로 일반화 — 변호사법상 비밀유지의무)
 - [ ] 내부조사 **건수·규모·결과**를 숫자로 더할지 결정 — 현재는 "다수 조사"로 서술. 그대로 제출 가능하나, 숫자가 들어가면 서류가 한 단계 올라감
 - [ ] **데이터로 결론이 바뀐 사례** 1건 — 필수요건 ⑤가 9개 중 유일하게 서술 강도로 갈리는 항목
-- [ ] PDF 변환 후 페이지 넘침 확인 (이 환경에서는 LibreOffice가 동작하지 않아 렌더링 검증을 하지 못했습니다. **로컬에서 열어 확인 후 PDF로 저장**하십시오)
+- [x] ~~PDF 변환 후 페이지 넘침 확인~~ 완료 — CV 4쪽, 경력기술서 3쪽, 커버레터 2쪽. 고아 페이지 없음
+- [x] **Tax Law 섹션 삭제** — 조사 포지션과 무관하고 5쪽째에 세 줄만 남아 고아 페이지가 생겨서 뺐습니다. 되살리려면 원본 이력서에서 복사하십시오
 
 ## 제출 절차
 

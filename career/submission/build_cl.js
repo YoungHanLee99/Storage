@@ -1,18 +1,18 @@
 const { Document, Packer, Paragraph, TextRun, AlignmentType, BorderStyle, PageBreak, convertInchesToTwip } = require('docx');
 const fs = require('fs');
-const FONT = "맑은 고딕";
-const R = (t,o={}) => new TextRun({ text:t, font:FONT, size:o.size??20, bold:o.bold, italics:o.italics });
+const FONT = "NanumGothic";
+const R = (t,o={}) => new TextRun({ text:t, font:FONT, size:o.size??19, bold:o.bold, italics:o.italics });
 const P = (runs,o={}) => new Paragraph({ children:Array.isArray(runs)?runs:[runs],
-  spacing:{ before:o.before??0, after:o.after??140, line:o.line??288 }, alignment:o.align });
-const H = (t) => new Paragraph({ children:[R(t,{bold:true,size:24})], spacing:{before:0,after:160},
+  spacing:{ before:o.before??0, after:o.after??110, line:o.line??264 }, alignment:o.align });
+const H = (t) => new Paragraph({ children:[R(t,{bold:true,size:22})], spacing:{before:0,after:120},
   border:{ bottom:{ style:BorderStyle.SINGLE, size:6, color:"000000", space:3 } } });
 
 const doc = new Document({ sections:[{
-  properties:{ page:{ margin:{ top:1100, bottom:1100, left:1100, right:1100 } } },
+  properties:{ page:{ margin:{ top:900, bottom:900, left:1000, right:1000 } } },
   children:[
 
 H("커버레터 — [쿠팡] 내부조사 선임 담당자 (Global Investigations), Principal"),
-P([R("이영한 (Young-Han LEE)  ·  younghanlee040@gmail.com  ·  010-7315-6400", {size:18})], {after:220}),
+P([R("이영한 (Young-Han LEE)  ·  younghanlee040@gmail.com  ·  010-7315-6400", {size:18})], {after:160}),
 
 P([R("저는 "), R("수사와 기소로 법조 경력을 시작해, 증거개시와 형사·규제 대응을 거쳐, 현재 5개국 그룹의 법무·거버넌스를 총괄하고 있는 17년차 변호사", {bold:true}),
    R("입니다. 한국과 워싱턴 D.C. 양쪽에 변호사로 등록되어 있고, 미국 통일 CPA 시험에 합격했습니다.")]),
@@ -62,7 +62,7 @@ P([R("이영한 드림")]),
 new Paragraph({ children:[new PageBreak()] }),
 
 H("Cover Letter — Principal, Global Investigations"),
-P([R("Young-Han LEE  ·  younghanlee040@gmail.com  ·  +82 10-7315-6400", {size:18})], {after:220}),
+P([R("Young-Han LEE  ·  younghanlee040@gmail.com  ·  +82 10-7315-6400", {size:18})], {after:160}),
 
 P([R("I began my legal career "), R("investigating and prosecuting", {bold:true}),
    R(", moved through "), R("evidence discovery and criminal and regulatory defence", {bold:true}),

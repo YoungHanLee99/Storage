@@ -2,7 +2,7 @@ const { Document, Packer, Paragraph, TextRun, HeadingLevel, AlignmentType,
         BorderStyle, LevelFormat, convertInchesToTwip } = require('docx');
 const fs = require('fs');
 
-const FONT = "맑은 고딕";
+const FONT = "NanumGothic";
 const R = (text, o={}) => new TextRun({ text, font: FONT, size: o.size ?? 19, bold: o.bold, italics: o.italics, color: o.color });
 
 const P = (runs, o={}) => new Paragraph({
