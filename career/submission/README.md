@@ -46,7 +46,7 @@
 
 ## 제출 전 확인 사항
 
-- [ ] **`Investigated and prosecuted martial-law violations.`** (JAG 불릿) — "martial law(계엄)"는 영어권 독자에게 2009–2014년 한국 맥락에서 어색하게 읽힙니다. 군형법 위반을 의도하신 것이라면 **`military criminal offences`** 또는 **`violations of the Military Criminal Act`** 가 정확합니다. 원문을 그대로 두었으니 확인 후 수정하십시오.
+- [x] ~~`martial-law violations`~~ → **`military criminal offences`** 로 수정 완료 (2026-09-25). "martial law(계엄)"는 2009–2014년 한국 맥락에서 영어권 독자에게 어색하게 읽히는 표현이었습니다. JAG 경력 불릿, PROFILE, REPRESENTATIVE MATTERS 세 곳 모두 일괄 적용했습니다.
 - [ ] 2021.7~8 아마존 관련 내부조사 자문을 Dentons Lee 경력에 추가할지 결정 (의뢰인명은 **"a US-listed global e-commerce client"** 로 일반화 — 변호사법상 비밀유지의무)
 - [ ] 내부조사 **건수·규모·결과**를 숫자로 더할지 결정 — 현재는 "다수 조사"로 서술. 그대로 제출 가능하나, 숫자가 들어가면 서류가 한 단계 올라감
 - [ ] **데이터로 결론이 바뀐 사례** 1건 — 필수요건 ⑤가 9개 중 유일하게 서술 강도로 갈리는 항목
