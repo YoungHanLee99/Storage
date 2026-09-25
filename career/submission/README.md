@@ -1,6 +1,6 @@
 # 제출 파일 — 쿠팡 Global Investigations (Principal)
 
-생성일 2026-09-22 · 원본 이력서 `Resume_Young-Han_LEE_202609.docx` 기준
+생성일 2026-09-22 · **2026-09-25 내부조사 실적 반영 갱신** · 원본 이력서 `Resume_Young-Han_LEE_202609.docx` 기준
 
 | 파일 | 설명 | 상태 |
 |---|---|:---:|
@@ -34,15 +34,22 @@
 | Digital Assets & Technology Regulation | Capital Markets & Financial Regulation |
 | Tax Law | Tax Law |
 
-**4. Investigations 블록에 항목 2개 추가** (둘 다 원본 EXPERIENCE에 이미 있던 사실)
+**4. Investigations 블록에 항목 4개 추가**
+- **인하우스 내부조사** — 비위·이해상충·정책위반 사안을 제보 접수부터 결론·징계 권고·시정까지 직접 수행·종결 *(최상단)*
+- **직장 내 괴롭힘 조사** — 접수 즉시 보호조치, 이해충돌 차단 구조, 사후 보복 모니터링 *(최상단)*
 - ITC 조사에서의 증거개시·신청 절차 총괄, 제재 인용, 궐석판결 유지
 - 육군 법무관으로서의 수사 및 기소
+
+**5. d'strict EXPERIENCE에 내부조사 불릿 2개 추가** (2·3번째 위치)
+- 그룹 내부조사 수행·종결 전 과정
+- 근로기준법 §76조의3 법정 조사의무에 따른 직장 내 괴롭힘 조사
 
 ## 제출 전 확인 사항
 
 - [ ] **`Investigated and prosecuted martial-law violations.`** (JAG 불릿) — "martial law(계엄)"는 영어권 독자에게 2009–2014년 한국 맥락에서 어색하게 읽힙니다. 군형법 위반을 의도하신 것이라면 **`military criminal offences`** 또는 **`violations of the Military Criminal Act`** 가 정확합니다. 원문을 그대로 두었으니 확인 후 수정하십시오.
 - [ ] 2021.7~8 아마존 관련 내부조사 자문을 Dentons Lee 경력에 추가할지 결정 (의뢰인명은 **"a US-listed global e-commerce client"** 로 일반화 — 변호사법상 비밀유지의무)
-- [ ] d'strict CLO 재직 중 수행한 **내부조사 실적**이 있으면 추가 → 공고 필수요건 ③⑤ 직결. 없으면 현 상태로 제출
+- [ ] 내부조사 **건수·규모·결과**를 숫자로 더할지 결정 — 현재는 "다수 조사"로 서술. 그대로 제출 가능하나, 숫자가 들어가면 서류가 한 단계 올라감
+- [ ] **데이터로 결론이 바뀐 사례** 1건 — 필수요건 ⑤가 9개 중 유일하게 서술 강도로 갈리는 항목
 - [ ] PDF 변환 후 페이지 넘침 확인 (이 환경에서는 LibreOffice가 동작하지 않아 렌더링 검증을 하지 못했습니다. **로컬에서 열어 확인 후 PDF로 저장**하십시오)
 
 ## 제출 절차

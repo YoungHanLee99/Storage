@@ -36,6 +36,11 @@ P([R("현재는 ㈜디스트릭트코리아에서 CSO 겸 CLO로", {bold:true}),
    R("를 이끌고 있습니다 — 지주구조, 특수관계자 거래 정리, 공시 대응력과 내부회계관리 요건까지. USD 스테이블코인 발행·상환 거래의 "),
    R("외환·AML/CFT 규제 검토", {bold:true}), R("도 제가 맡고 있습니다.")]),
 
+P([R("그리고 지금 제가 실제로 가장 많이 하는 일 중 하나가 내부조사입니다.", {bold:true}),
+   R(" 제보를 받으면 착수 여부와 범위를 제가 결정하고, 관계자를 면담하고, 사내 자료와 데이터를 검토해 사실관계를 확정한 뒤, 징계 권고와 제도 개선까지 연결합니다. 피조사자가 보고선에 있는 사안은 이해충돌 차단 구조를 따로 설계해 수행했습니다. 특히 "),
+   R("직장 내 괴롭힘 신고 사건은 다수 조사", {bold:true}),
+   R("했는데, 이 유형은 근로기준법 제76조의3상 사용자의 법정 조사의무가 걸려 있어 접수 즉시 피해자 보호조치를 시행하고 지체 없이 조사를 개시해야 하며, 종결 후에도 보복 여부를 별도로 모니터링해야 합니다. Fraud 사건과는 다른 시계로 돌려야 하는 일입니다.")]),
+
 P([R("귀사에 지원하는 이유는 두 가지입니다.", {bold:true})], {before:80}),
 
 P([R("첫째, 쿠팡은 "), R("미국 상장 법인이면서 한국 법제 아래에서 조사를 수행해야 하는", {bold:true}),
@@ -84,6 +89,11 @@ P([R("Today, as Chief Strategy Officer and Chief Legal Officer of d’strict Kor
    R("U.S. listing preparation", {bold:true}),
    R(" with a Big Four advisor — holding structure, related-party clean-up, disclosure readiness and internal accounting control. I also handle the "),
    R("foreign-exchange and AML/CFT", {bold:true}), R(" analysis for USD-stablecoin mint and redemption operations.")]),
+
+P([R("Internal investigations are also one of the things I do most in my current seat.", {bold:true}),
+   R(" I take the report, decide myself whether to open and how wide, interview the people involved, review company records and data to settle the facts, and carry it through to a disciplinary recommendation and the control change that follows. Where the subject sat in the normal reporting chain, I designed a separate conflict-of-interest firewall. "),
+   R("Workplace harassment complaints in particular I have investigated many times", {bold:true}),
+   R(" \u2014 a category that carries a statutory duty on the employer under article 76-3 of the Labor Standards Act: protective measures on intake, an investigation opened without delay, and monitoring for retaliation after closure. It runs on a different clock from a fraud matter.")]),
 
 P([R("Two things drew me to this role.", {bold:true})], {before:80}),
 
