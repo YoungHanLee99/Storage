@@ -225,19 +225,19 @@ STARS = [(random.Random(i).uniform(0, W), random.Random(i + 999).uniform(0, H * 
 BOKEH = [(random.Random(i).uniform(0, W), random.Random(i + 3).uniform(0, H), random.Random(i + 5).choice([40, 60, 90]),
           random.Random(i + 7).choice([PINK, GOLD, LAV, MINT]), random.Random(i + 9).uniform(-25, -60)) for i in range(22)]
 
-def heart_pts(cx, cy, s, rot=0):
-    pts = []
-    for k in range(48):
-        a = 2 * math.pi * k / 48
-        x = 16 * math.sin(a) ** 3
-        y = -(13 * math.cos(a) - 5 * math.cos(2 * a) - 2 * math.cos(3 * a) - math.cos(4 * a))
-        x, y = x * s / 16, y * s / 16
-        cr, sr = math.cos(rot), math.sin(rot)
-        pts.append((cx + x * cr - y * sr, cy + x * sr + y * cr))
-    return pts
+BALLOON_COLS = [PINK, GOLD, MINT, LAV, (130, 190, 255), (255, 130, 100)]
+BALLOONS = [(random.Random(i).uniform(80, W - 80), random.Random(i + 1).uniform(0, 3.0), random.Random(i + 2).uniform(42, 70),
+             random.Random(i + 3).choice(BALLOON_COLS)) for i in range(18)]
 
-HEARTS = [(random.Random(i).uniform(60, W - 60), random.Random(i + 1).uniform(0, 3.5), random.Random(i + 2).uniform(18, 46),
-           random.Random(i + 3).choice([PINK, (255, 100, 140), (255, 190, 210)])) for i in range(26)]
+def draw_balloon(d, x, y, s, col, a):
+    """풍선: 몸통 + 매듭 + 줄 + 하이라이트 (x, y = 몸통 중심)"""
+    A = int(255 * a)
+    bh = s * 1.2
+    pts = [(x + 6 * math.sin(k * 0.6), y + bh + 10 + k * 12) for k in range(14)]
+    d.line(pts, fill=(255, 255, 255, int(150 * a)), width=3)
+    d.polygon([(x, y + bh - 4), (x - 10, y + bh + 14), (x + 10, y + bh + 14)], fill=col + (A,))
+    d.ellipse((x - s, y - bh, x + s, y + bh), fill=col + (A,))
+    d.ellipse((x - s * 0.55, y - bh * 0.7, x - s * 0.2, y - bh * 0.25), fill=(255, 255, 255, int(110 * a)))
 
 def sparkle(d, x, y, r, a, col=(255, 255, 255)):
     d.polygon([(x, y - r), (x + r * 0.22, y - r * 0.22), (x + r, y), (x + r * 0.22, y + r * 0.22),
@@ -268,14 +268,15 @@ def render(fi):
         c.alpha_composite(ov)
 
     # --- Scene 2: 4.2 ~ 8.4
-    text_anim(c, t, 4.5, 7.8, "세상에서 제일 소중한", F_BODY, 84, CREAM, 820)
+    text_anim(c, t, 4.5, 7.8, "오늘의 주인공은 바로", F_BODY, 84, CREAM, 820)
     text_anim(c, t, 5.3, 7.8, NAME, F_TITLE, 170 if len(NAME) <= 5 else 130, PINK, 1010, glow=18, kind="pop")
     if 5.3 < t < 8.4:
         ov = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(ov)
         pa = ease_out(prog(t, 5.5, 6.2)) * (1 - prog(t, 7.8, 8.4))
         for k in range(8):
             ang = k * math.pi / 4 + t * 0.6
-            d.polygon(heart_pts(W / 2 + math.cos(ang) * 430, 1010 + math.sin(ang) * 230, 22, 0), fill=PINK + (int(220 * pa),))
+            tw = 0.6 + 0.4 * math.sin(t * 5 + k)
+            sparkle(d, W / 2 + math.cos(ang) * 430, 1010 + math.sin(ang) * 230, 26 * tw + 8, pa, GOLD)
         c.alpha_composite(ov)
 
     # --- Scene 3: 8.4 ~ 14.6  cake
@@ -288,7 +289,7 @@ def render(fi):
     text_anim(c, t, 10.3, 14.2, "생일 축하해!", F_TITLE, 140, CREAM, 720, glow=16, kind="pop")
 
     # --- Scene 4: 14.8 ~ 20.6  message
-    lines = ["태어나 줘서 고마워", "올해도 하고 싶은 거 다 하고", "늘 건강하고 행복하자", "언제나 네 편이야"]
+    lines = ["벌써 이만큼 컸네", "올해도 하고 싶은 거 다 하고", "아프지 말고 건강하게 지내", "맛있는 거 많이 먹어!"]
     for k, ln in enumerate(lines):
         col = GOLD if k == 3 else CREAM
         text_anim(c, t, 15.0 + k * 1.15, 20.0, ln, F_HAND, 128 if k < 3 else 150, col, 640 + k * 210, glow=10 if k == 3 else 6)
@@ -296,16 +297,15 @@ def render(fi):
     # --- Scene 5: 20.6 ~ 25  finale
     if t > 20.6:
         ov = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(ov)
-        for (hx, hd, hs, hc) in HEARTS:
-            dt = t - 20.6 - hd
+        for (bx, bd, bs, bc) in BALLOONS:
+            dt = t - 20.6 - bd
             if dt < 0: continue
-            y = H + 60 - dt * 330
-            d.polygon(heart_pts(hx + 40 * math.sin(dt * 2 + hx), y, hs, 0.25 * math.sin(dt * 3 + hs)),
-                      fill=hc + (int(200 * clamp(dt * 2)),))
+            y = H + 120 - dt * 300
+            draw_balloon(d, bx + 30 * math.sin(dt * 1.5 + bx), y, bs, bc, 0.9 * clamp(dt * 2))
         c.alpha_composite(ov)
     text_anim(c, t, 20.8, 30, "HAPPY", F_TITLE, 190, GOLD, 760, glow=18, kind="pop")
     text_anim(c, t, 21.1, 30, "BIRTHDAY", F_TITLE, 160, PINK, 940, glow=18, kind="pop")
-    text_anim(c, t, 21.9, 30, "사랑해 ♥", F_TITLE, 110, CREAM, 1140, glow=10)
+    text_anim(c, t, 21.9, 30, "즐거운 하루 보내!", F_TITLE, 100, CREAM, 1140, glow=10)
 
     # confetti on top
     ov = Image.new("RGBA", (W, H), (0, 0, 0, 0)); draw_confetti(ImageDraw.Draw(ov), t); c.alpha_composite(ov)
