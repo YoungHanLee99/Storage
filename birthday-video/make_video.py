@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""동생 생일 축하 동영상 생성기 (1080x1920 세로, 30fps, ~25초, 오르골 'Happy Birthday' BGM)
+"""동생 생일 축하 동영상 생성기 (1080x1920 세로, 30fps, ~28초, 오르골 'Happy Birthday' BGM)
 
 사용법: python3 make_video.py [--name 이름] [--out 파일.mp4]
 """
@@ -10,7 +10,7 @@ from multiprocessing import Pool
 import numpy as np
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
-W, H, FPS, DUR = 1080, 1920, 30, 25.0
+W, H, FPS, DUR = 1080, 1920, 30, 28.0
 NFRAMES = int(DUR * FPS)
 FD = "/usr/share/fonts/truetype/nanum/"
 F_TITLE = FD + "NanumSquareRoundEB.ttf"
@@ -225,8 +225,16 @@ STARS = [(random.Random(i).uniform(0, W), random.Random(i + 999).uniform(0, H * 
 BOKEH = [(random.Random(i).uniform(0, W), random.Random(i + 3).uniform(0, H), random.Random(i + 5).choice([40, 60, 90]),
           random.Random(i + 7).choice([PINK, GOLD, LAV, MINT]), random.Random(i + 9).uniform(-25, -60)) for i in range(22)]
 
+@lru_cache(None)
+def blessing_glow():
+    s = Image.new("RGBA", (1100, 640), (0, 0, 0, 0))
+    ImageDraw.Draw(s).ellipse((150, 170, 950, 470), fill=(255, 225, 150, 70))
+    return s.filter(ImageFilter.GaussianBlur(90))
+
 BALLOON_COLS = [PINK, GOLD, MINT, LAV, (130, 190, 255), (255, 130, 100)]
-BALLOONS = [(random.Random(i).uniform(80, W - 80), random.Random(i + 1).uniform(0, 3.0), random.Random(i + 2).uniform(42, 70),
+# 가운데 글자를 가리지 않도록 화면 양옆 가장자리로만 올라가게 배치
+BALLOONS = [((random.Random(i).uniform(75, 135) if i % 2 == 0 else random.Random(i).uniform(945, 1005)),
+             i * 0.32 + random.Random(i + 1).uniform(0, 0.25), random.Random(i + 2).uniform(40, 56),
              random.Random(i + 3).choice(BALLOON_COLS)) for i in range(18)]
 
 def draw_balloon(d, x, y, s, col, a):
@@ -301,11 +309,16 @@ def render(fi):
             dt = t - 20.6 - bd
             if dt < 0: continue
             y = H + 120 - dt * 300
-            draw_balloon(d, bx + 30 * math.sin(dt * 1.5 + bx), y, bs, bc, 0.9 * clamp(dt * 2))
+            draw_balloon(d, bx + 18 * math.sin(dt * 1.5 + bx), y, bs, bc, 0.9 * clamp(dt * 2))
         c.alpha_composite(ov)
     text_anim(c, t, 20.8, 30, "HAPPY", F_TITLE, 190, GOLD, 760, glow=18, kind="pop")
     text_anim(c, t, 21.1, 30, "BIRTHDAY", F_TITLE, 160, PINK, 940, glow=18, kind="pop")
-    text_anim(c, t, 21.9, 30, "즐거운 하루 보내!", F_TITLE, 100, CREAM, 1140, glow=10)
+    # 축복 메시지: 은은한 금빛 후광 위에 두 줄
+    if t > 22.0:
+        ga = ease_out(prog(t, 22.0, 23.2)) * (0.85 + 0.15 * math.sin(t * 2))
+        put(c, blessing_glow(), W / 2, 1200, ga)
+    text_anim(c, t, 22.2, 30, "주님의 이름으로", F_BODY, 88, CREAM, 1140, glow=10, dur=1.0)
+    text_anim(c, t, 22.9, 30, "축복하고 사랑한다", F_TITLE, 104, GOLD, 1280, glow=16, dur=1.0)
 
     # confetti on top
     ov = Image.new("RGBA", (W, H), (0, 0, 0, 0)); draw_confetti(ImageDraw.Draw(ov), t); c.alpha_composite(ov)
@@ -326,6 +339,9 @@ def note_wave(m, dur, vol, kind="box"):
         w = (np.sin(2 * np.pi * f * tt) + 0.35 * np.sin(2 * np.pi * 2 * f * tt) * np.exp(-tt * 6)
              + 0.18 * np.sin(2 * np.pi * 3.01 * f * tt) * np.exp(-tt * 9) + 0.08 * np.sin(2 * np.pi * 4.2 * f * tt) * np.exp(-tt * 14))
         env = np.exp(-tt * 2.6) * np.minimum(1, tt / 0.004)
+    elif kind == "warm":  # slow-swelling sustained pad
+        w = np.sin(2 * np.pi * f * tt) + 0.25 * np.sin(2 * np.pi * 2.003 * f * tt) + 0.1 * np.sin(2 * np.pi * 3 * f * tt)
+        env = np.minimum(1, tt / 0.6) * np.exp(-tt * 0.35)
     else:  # soft pad
         w = np.sin(2 * np.pi * f * tt) + 0.2 * np.sin(2 * np.pi * 2 * f * tt)
         env = np.minimum(1, tt / 0.08) * np.exp(-tt * 1.2)
@@ -361,6 +377,12 @@ def make_audio(path):
     # outro sparkle
     for k, m in enumerate([84, 88, 91, 96]):
         add(end + 0.8 + k * 0.15, note_wave(m, 2.0, 0.07))
+    # blessing: 축복 메시지에 맞춘 잔잔한 C장조 화음 + 느린 아르페지오
+    bless = 22.2
+    for m in [48, 55, 60, 64, 67]:
+        add(bless, note_wave(m, 5.5, 0.08, "warm"))
+    for k, m in enumerate([72, 76, 79, 84, 79, 84, 88]):
+        add(bless + k * 0.42, note_wave(m, 2.5, 0.12))
     # simple reverb (feedback delays)
     out = total.copy()
     for dl, g in [(0.031, .35), (0.047, .28), (0.071, .22), (0.113, .16)]:
